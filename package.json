@@ -1,0 +1,14 @@
+{
+  "name": "@modus/ionic",
+  "version": "0.0.1",
+  "homepage": "https://moduscreate.com",
+  "license": "MIT",
+  "repository": "github:moduslabs/ionic",
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "ts-node": "^8.10.2",
+    "tslib": "^1.13.0",
+    "typescript": "^3.9.7"
+  }
+}
