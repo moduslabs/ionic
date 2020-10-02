@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "module": "commonjs",
+    "outDir": "./build/",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "es2019", "es2015.iterable"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@common": ["./packages/common/src"],
+      "@common/*": ["./packages/common/src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

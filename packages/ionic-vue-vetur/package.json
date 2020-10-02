@@ -1,0 +1,22 @@
+{
+  "name": "@modus/ionic-vue-vetur",
+  "version": "0.0.1",
+  "description": "Auto-completion and hover-information for ionic-vue.",
+  "homepage": "https://moduscreate.com",
+  "author": "Michael Tintiuc <michael.tintiuc@moduscreate.com>",
+  "user": "michaeltintiuc",
+  "license": "MIT",
+  "repository": "github:moduslabs/ionic",
+  "files": [
+    "dist/"
+  ],
+  "vetur": {
+    "tags": "dist/tags.json",
+    "attributes": "dist/attributes.json"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@ionic/docs": "^5.3.1",
+    "change-case": "^4.1.1"
+  }
+}

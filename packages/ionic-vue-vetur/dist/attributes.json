@@ -1,0 +1,2902 @@
+{
+  "ion-action-sheet/animated": {
+    "type": "boolean",
+    "description": "If `true`, the action sheet will animate."
+  },
+  "ion-action-sheet/backdrop-dismiss": {
+    "type": "boolean",
+    "description": "If `true`, the action sheet will be dismissed when the backdrop is clicked."
+  },
+  "ion-action-sheet/buttons": {
+    "type": "(string | ActionSheetButton)[]",
+    "description": "An array of buttons for the action sheet."
+  },
+  "ion-action-sheet/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-action-sheet/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the action sheet is presented."
+  },
+  "ion-action-sheet/header": {
+    "type": "string | undefined",
+    "description": "Title for the action sheet."
+  },
+  "ion-action-sheet/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-action-sheet/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the action sheet is dismissed."
+  },
+  "ion-action-sheet/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-action-sheet/sub-header": {
+    "type": "string | undefined",
+    "description": "Subtitle for the action sheet."
+  },
+  "ion-action-sheet/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the action sheet will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-action-sheet/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the alert has dismissed."
+  },
+  "ion-action-sheet/didPresent": {
+    "type": "event",
+    "description": "Emitted after the alert has presented."
+  },
+  "ion-action-sheet/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the alert has dismissed."
+  },
+  "ion-action-sheet/willPresent": {
+    "type": "event",
+    "description": "Emitted before the alert has presented."
+  },
+  "ion-alert/animated": {
+    "type": "boolean",
+    "description": "If `true`, the alert will animate."
+  },
+  "ion-alert/backdrop-dismiss": {
+    "type": "boolean",
+    "description": "If `true`, the alert will be dismissed when the backdrop is clicked."
+  },
+  "ion-alert/buttons": {
+    "type": "(string | AlertButton)[]",
+    "description": "Array of buttons to be added to the alert."
+  },
+  "ion-alert/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-alert/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the alert is presented."
+  },
+  "ion-alert/header": {
+    "type": "string | undefined",
+    "description": "The main title in the heading of the alert."
+  },
+  "ion-alert/inputs": {
+    "type": "AlertInput[]",
+    "description": "Array of input to show in the alert."
+  },
+  "ion-alert/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-alert/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the alert is dismissed."
+  },
+  "ion-alert/message": {
+    "type": "IonicSafeString | string | undefined",
+    "description": "The main message to be displayed in the alert.\n`message` can accept either plaintext or HTML as a string.\nTo display characters normally reserved for HTML, they\nmust be escaped. For example `<Ionic>` would become\n`&lt;Ionic&gt;`\n\nFor more information: [Security Documentation](https://ionicframework.com/docs/faq/security)"
+  },
+  "ion-alert/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-alert/sub-header": {
+    "type": "string | undefined",
+    "description": "The subtitle in the heading of the alert. Displayed under the title."
+  },
+  "ion-alert/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the alert will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-alert/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the alert has dismissed."
+  },
+  "ion-alert/didPresent": {
+    "type": "event",
+    "description": "Emitted after the alert has presented."
+  },
+  "ion-alert/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the alert has dismissed."
+  },
+  "ion-alert/willPresent": {
+    "type": "event",
+    "description": "Emitted before the alert has presented."
+  },
+  "ion-back-button/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-back-button/default-href": {
+    "type": "string | undefined",
+    "description": "The url to navigate back to by default when there is no history."
+  },
+  "ion-back-button/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the button."
+  },
+  "ion-back-button/icon": {
+    "type": "null | string | undefined",
+    "description": "The icon name to use for the back button."
+  },
+  "ion-back-button/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-back-button/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "When using a router, it specifies the transition animation when navigating to\nanother page."
+  },
+  "ion-back-button/text": {
+    "type": "null | string | undefined",
+    "description": "The text to display in the back button."
+  },
+  "ion-back-button/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-backdrop/stop-propagation": {
+    "type": "boolean",
+    "description": "If `true`, the backdrop will stop propagation on tap."
+  },
+  "ion-backdrop/tappable": {
+    "type": "boolean",
+    "description": "If `true`, the backdrop will can be clicked and will emit the `ionBackdropTap` event."
+  },
+  "ion-backdrop/visible": {
+    "type": "boolean",
+    "description": "If `true`, the backdrop will be visible."
+  },
+  "ion-backdrop/ionBackdropTap": {
+    "type": "event",
+    "description": "Emitted when the backdrop is tapped."
+  },
+  "ion-badge/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-badge/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-button/button-type": {
+    "type": "string",
+    "description": "The type of button."
+  },
+  "ion-button/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-button/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the button."
+  },
+  "ion-button/download": {
+    "type": "string | undefined",
+    "description": "This attribute instructs browsers to download a URL instead of navigating to\nit, so the user will be prompted to save it as a local file. If the attribute\nhas a value, it is used as the pre-filled file name in the Save prompt\n(the user can still change the file name if they want)."
+  },
+  "ion-button/expand": {
+    "type": "\"block\" | \"full\" | undefined",
+    "description": "Set to `\"block\"` for a full-width button or to `\"full\"` for a full-width button\nwithout left and right borders.",
+    "options": [
+      "block",
+      "full"
+    ]
+  },
+  "ion-button/fill": {
+    "type": "\"clear\" | \"default\" | \"outline\" | \"solid\" | undefined",
+    "description": "Set to `\"clear\"` for a transparent button, to `\"outline\"` for a transparent\nbutton with a border, or to `\"solid\"`. The default style is `\"solid\"` except inside of\na toolbar, where the default is `\"clear\"`.",
+    "options": [
+      "clear",
+      "default",
+      "outline",
+      "solid"
+    ]
+  },
+  "ion-button/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-button/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-button/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-button/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "When using a router, it specifies the transition animation when navigating to\nanother page using `href`."
+  },
+  "ion-button/router-direction": {
+    "type": "\"back\" | \"forward\" | \"root\"",
+    "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
+    "options": [
+      "back",
+      "forward",
+      "root"
+    ]
+  },
+  "ion-button/shape": {
+    "type": "\"round\" | undefined",
+    "description": "The button shape.",
+    "options": [
+      "round"
+    ]
+  },
+  "ion-button/size": {
+    "type": "\"default\" | \"large\" | \"small\" | undefined",
+    "description": "The button size.",
+    "options": [
+      "default",
+      "large",
+      "small"
+    ]
+  },
+  "ion-button/strong": {
+    "type": "boolean",
+    "description": "If `true`, activates a button with a heavier font weight."
+  },
+  "ion-button/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-button/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-button/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the button loses focus."
+  },
+  "ion-button/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the button has focus."
+  },
+  "ion-buttons/collapse": {
+    "type": "boolean",
+    "description": "If true, buttons will disappear when its\nparent toolbar has fully collapsed if the toolbar\nis not the first toolbar. If the toolbar is the\nfirst toolbar, the buttons will be hidden and will\nonly be shown once all toolbars have fully collapsed.\n\nOnly applies in `ios` mode with `collapse` set to\n`true` on `ion-header`.\n\nTypically used for [Collapsible Large Titles](https://ionicframework.com/docs/api/title#collapsible-large-titles)"
+  },
+  "ion-card/button": {
+    "type": "boolean",
+    "description": "If `true`, a button tag will be rendered and the card will be tappable."
+  },
+  "ion-card/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-card/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the card."
+  },
+  "ion-card/download": {
+    "type": "string | undefined",
+    "description": "This attribute instructs browsers to download a URL instead of navigating to\nit, so the user will be prompted to save it as a local file. If the attribute\nhas a value, it is used as the pre-filled file name in the Save prompt\n(the user can still change the file name if they want)."
+  },
+  "ion-card/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-card/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-card/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-card/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "When using a router, it specifies the transition animation when navigating to\nanother page using `href`."
+  },
+  "ion-card/router-direction": {
+    "type": "\"back\" | \"forward\" | \"root\"",
+    "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
+    "options": [
+      "back",
+      "forward",
+      "root"
+    ]
+  },
+  "ion-card/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-card/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button. Only used when an `onclick` or `button` property is present.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-card-content/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-card-header/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-card-header/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-card-header/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the card header will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-card-subtitle/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-card-subtitle/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-card-title/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-card-title/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-checkbox/checked": {
+    "type": "boolean",
+    "description": "If `true`, the checkbox is selected."
+  },
+  "ion-checkbox/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-checkbox/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the checkbox."
+  },
+  "ion-checkbox/indeterminate": {
+    "type": "boolean",
+    "description": "If `true`, the checkbox will visually appear as indeterminate."
+  },
+  "ion-checkbox/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-checkbox/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-checkbox/value": {
+    "type": "string",
+    "description": "The value of the toggle does not mean if it's checked or not, use the `checked`\nproperty for that.\n\nThe value of a toggle is analogous to the value of a `<input type=\"checkbox\">`,\nit's only used when the toggle participates in a native `<form>`."
+  },
+  "ion-checkbox/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the toggle loses focus."
+  },
+  "ion-checkbox/ionChange": {
+    "type": "event",
+    "description": "Emitted when the checked property has changed."
+  },
+  "ion-checkbox/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the toggle has focus."
+  },
+  "ion-chip/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-chip/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-chip/outline": {
+    "type": "boolean",
+    "description": "Display an outline style button."
+  },
+  "ion-col/offset": {
+    "type": "string | undefined",
+    "description": "The amount to offset the column, in terms of how many columns it should shift to the end\nof the total available."
+  },
+  "ion-col/offset-lg": {
+    "type": "string | undefined",
+    "description": "The amount to offset the column for lg screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/offset-md": {
+    "type": "string | undefined",
+    "description": "The amount to offset the column for md screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/offset-sm": {
+    "type": "string | undefined",
+    "description": "The amount to offset the column for sm screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/offset-xl": {
+    "type": "string | undefined",
+    "description": "The amount to offset the column for xl screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/offset-xs": {
+    "type": "string | undefined",
+    "description": "The amount to offset the column for xs screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/pull": {
+    "type": "string | undefined",
+    "description": "The amount to pull the column, in terms of how many columns it should shift to the start of\nthe total available."
+  },
+  "ion-col/pull-lg": {
+    "type": "string | undefined",
+    "description": "The amount to pull the column for lg screens, in terms of how many columns it should shift\nto the start of the total available."
+  },
+  "ion-col/pull-md": {
+    "type": "string | undefined",
+    "description": "The amount to pull the column for md screens, in terms of how many columns it should shift\nto the start of the total available."
+  },
+  "ion-col/pull-sm": {
+    "type": "string | undefined",
+    "description": "The amount to pull the column for sm screens, in terms of how many columns it should shift\nto the start of the total available."
+  },
+  "ion-col/pull-xl": {
+    "type": "string | undefined",
+    "description": "The amount to pull the column for xl screens, in terms of how many columns it should shift\nto the start of the total available."
+  },
+  "ion-col/pull-xs": {
+    "type": "string | undefined",
+    "description": "The amount to pull the column for xs screens, in terms of how many columns it should shift\nto the start of the total available."
+  },
+  "ion-col/push": {
+    "type": "string | undefined",
+    "description": "The amount to push the column, in terms of how many columns it should shift to the end\nof the total available."
+  },
+  "ion-col/push-lg": {
+    "type": "string | undefined",
+    "description": "The amount to push the column for lg screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/push-md": {
+    "type": "string | undefined",
+    "description": "The amount to push the column for md screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/push-sm": {
+    "type": "string | undefined",
+    "description": "The amount to push the column for sm screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/push-xl": {
+    "type": "string | undefined",
+    "description": "The amount to push the column for xl screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/push-xs": {
+    "type": "string | undefined",
+    "description": "The amount to push the column for xs screens, in terms of how many columns it should shift\nto the end of the total available."
+  },
+  "ion-col/size": {
+    "type": "string | undefined",
+    "description": "The size of the column, in terms of how many columns it should take up out of the total\navailable. If `\"auto\"` is passed, the column will be the size of its content."
+  },
+  "ion-col/size-lg": {
+    "type": "string | undefined",
+    "description": "The size of the column for lg screens, in terms of how many columns it should take up out\nof the total available. If `\"auto\"` is passed, the column will be the size of its content."
+  },
+  "ion-col/size-md": {
+    "type": "string | undefined",
+    "description": "The size of the column for md screens, in terms of how many columns it should take up out\nof the total available. If `\"auto\"` is passed, the column will be the size of its content."
+  },
+  "ion-col/size-sm": {
+    "type": "string | undefined",
+    "description": "The size of the column for sm screens, in terms of how many columns it should take up out\nof the total available. If `\"auto\"` is passed, the column will be the size of its content."
+  },
+  "ion-col/size-xl": {
+    "type": "string | undefined",
+    "description": "The size of the column for xl screens, in terms of how many columns it should take up out\nof the total available. If `\"auto\"` is passed, the column will be the size of its content."
+  },
+  "ion-col/size-xs": {
+    "type": "string | undefined",
+    "description": "The size of the column for xs screens, in terms of how many columns it should take up out\nof the total available. If `\"auto\"` is passed, the column will be the size of its content."
+  },
+  "ion-content/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-content/force-overscroll": {
+    "type": "boolean | undefined",
+    "description": "If `true` and the content does not cause an overflow scroll, the scroll interaction will cause a bounce.\nIf the content exceeds the bounds of ionContent, nothing will change.\nNote, the does not disable the system bounce on iOS. That is an OS level setting."
+  },
+  "ion-content/fullscreen": {
+    "type": "boolean",
+    "description": "If `true`, the content will scroll behind the headers\nand footers. This effect can easily be seen by setting the toolbar\nto transparent."
+  },
+  "ion-content/scroll-events": {
+    "type": "boolean",
+    "description": "Because of performance reasons, ionScroll events are disabled by default, in order to enable them\nand start listening from (ionScroll), set this property to `true`."
+  },
+  "ion-content/scroll-x": {
+    "type": "boolean",
+    "description": "If you want to enable the content scrolling in the X axis, set this property to `true`."
+  },
+  "ion-content/scroll-y": {
+    "type": "boolean",
+    "description": "If you want to disable the content scrolling in the Y axis, set this property to `false`."
+  },
+  "ion-content/ionScroll": {
+    "type": "event",
+    "description": "Emitted while scrolling. This event is disabled by default.\nLook at the property: `scrollEvents`"
+  },
+  "ion-content/ionScrollEnd": {
+    "type": "event",
+    "description": "Emitted when the scroll has ended."
+  },
+  "ion-content/ionScrollStart": {
+    "type": "event",
+    "description": "Emitted when the scroll has started."
+  },
+  "ion-datetime/cancel-text": {
+    "type": "string",
+    "description": "The text to display on the picker's cancel button."
+  },
+  "ion-datetime/day-names": {
+    "type": "string | string[] | undefined",
+    "description": "Full day of the week names. This can be used to provide\nlocale names for each day in the week. Defaults to English."
+  },
+  "ion-datetime/day-short-names": {
+    "type": "string | string[] | undefined",
+    "description": "Short abbreviated day of the week names. This can be used to provide\nlocale names for each day in the week. Defaults to English.\nDefaults to: `['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']`"
+  },
+  "ion-datetime/day-values": {
+    "type": "number | number[] | string | undefined",
+    "description": "Values used to create the list of selectable days. By default\nevery day is shown for the given month. However, to control exactly which days of\nthe month to display, the `dayValues` input can take a number, an array of numbers, or\na string of comma separated numbers. Note that even if the array days have an invalid\nnumber for the selected month, like `31` in February, it will correctly not show\ndays which are not valid for the selected month."
+  },
+  "ion-datetime/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the datetime."
+  },
+  "ion-datetime/display-format": {
+    "type": "string",
+    "description": "The display format of the date and time as text that shows\nwithin the item. When the `pickerFormat` input is not used, then the\n`displayFormat` is used for both display the formatted text, and determining\nthe datetime picker's columns. See the `pickerFormat` input description for\nmore info. Defaults to `MMM D, YYYY`."
+  },
+  "ion-datetime/display-timezone": {
+    "type": "string | undefined",
+    "description": "The timezone to use for display purposes only. See\n[Date.prototype.toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)\nfor a list of supported timezones. If no value is provided, the\ncomponent will default to displaying times in the user's local timezone."
+  },
+  "ion-datetime/done-text": {
+    "type": "string",
+    "description": "The text to display on the picker's \"Done\" button."
+  },
+  "ion-datetime/hour-values": {
+    "type": "number | number[] | string | undefined",
+    "description": "Values used to create the list of selectable hours. By default\nthe hour values range from `0` to `23` for 24-hour, or `1` to `12` for 12-hour. However,\nto control exactly which hours to display, the `hourValues` input can take a number, an\narray of numbers, or a string of comma separated numbers."
+  },
+  "ion-datetime/max": {
+    "type": "string | undefined",
+    "description": "The maximum datetime allowed. Value must be a date string\nfollowing the\n[ISO 8601 datetime format standard](https://www.w3.org/TR/NOTE-datetime),\n`1996-12-19`. The format does not have to be specific to an exact\ndatetime. For example, the maximum could just be the year, such as `1994`.\nDefaults to the end of this year."
+  },
+  "ion-datetime/min": {
+    "type": "string | undefined",
+    "description": "The minimum datetime allowed. Value must be a date string\nfollowing the\n[ISO 8601 datetime format standard](https://www.w3.org/TR/NOTE-datetime),\nsuch as `1996-12-19`. The format does not have to be specific to an exact\ndatetime. For example, the minimum could just be the year, such as `1994`.\nDefaults to the beginning of the year, 100 years ago from today."
+  },
+  "ion-datetime/minute-values": {
+    "type": "number | number[] | string | undefined",
+    "description": "Values used to create the list of selectable minutes. By default\nthe minutes range from `0` to `59`. However, to control exactly which minutes to display,\nthe `minuteValues` input can take a number, an array of numbers, or a string of comma\nseparated numbers. For example, if the minute selections should only be every 15 minutes,\nthen this input value would be `minuteValues=\"0,15,30,45\"`."
+  },
+  "ion-datetime/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-datetime/month-names": {
+    "type": "string | string[] | undefined",
+    "description": "Full names for each month name. This can be used to provide\nlocale month names. Defaults to English."
+  },
+  "ion-datetime/month-short-names": {
+    "type": "string | string[] | undefined",
+    "description": "Short abbreviated names for each month name. This can be used to provide\nlocale month names. Defaults to English."
+  },
+  "ion-datetime/month-values": {
+    "type": "number | number[] | string | undefined",
+    "description": "Values used to create the list of selectable months. By default\nthe month values range from `1` to `12`. However, to control exactly which months to\ndisplay, the `monthValues` input can take a number, an array of numbers, or a string of\ncomma separated numbers. For example, if only summer months should be shown, then this\ninput value would be `monthValues=\"6,7,8\"`. Note that month numbers do *not* have a\nzero-based index, meaning January's value is `1`, and December's is `12`."
+  },
+  "ion-datetime/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-datetime/picker-format": {
+    "type": "string | undefined",
+    "description": "The format of the date and time picker columns the user selects.\nA datetime input can have one or many datetime parts, each getting their\nown column which allow individual selection of that particular datetime part. For\nexample, year and month columns are two individually selectable columns which help\nchoose an exact date from the datetime picker. Each column follows the string\nparse format. Defaults to use `displayFormat`."
+  },
+  "ion-datetime/picker-options": {
+    "type": "undefined | { columns?: PickerColumn[] | undefined; buttons?: PickerButton[] | undefined; cssClass?: string | string[] | undefined; showBackdrop?: boolean | undefined; backdropDismiss?: boolean | undefined; animated?: boolean | undefined; mode?: \"ios\" | \"md\" | undefined; keyboardClose?: boolean | undefined; id?: string | undefined; enterAnimation?: AnimationBuilder | undefined; leaveAnimation?: AnimationBuilder | undefined; }",
+    "description": "Any additional options that the picker interface can accept.\nSee the [Picker API docs](../picker) for the picker options.",
+    "options": [
+      "md"
+    ]
+  },
+  "ion-datetime/placeholder": {
+    "type": "null | string | undefined",
+    "description": "The text to display when there's no date selected yet.\nUsing lowercase to match the input attribute"
+  },
+  "ion-datetime/readonly": {
+    "type": "boolean",
+    "description": "If `true`, the datetime appears normal but is not interactive."
+  },
+  "ion-datetime/value": {
+    "type": "null | string | undefined",
+    "description": "The value of the datetime as a valid ISO 8601 datetime string."
+  },
+  "ion-datetime/year-values": {
+    "type": "number | number[] | string | undefined",
+    "description": "Values used to create the list of selectable years. By default\nthe year values range between the `min` and `max` datetime inputs. However, to\ncontrol exactly which years to display, the `yearValues` input can take a number, an array\nof numbers, or string of comma separated numbers. For example, to show upcoming and\nrecent leap years, then this input's value would be `yearValues=\"2024,2020,2016,2012,2008\"`."
+  },
+  "ion-datetime/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the datetime loses focus."
+  },
+  "ion-datetime/ionCancel": {
+    "type": "event",
+    "description": "Emitted when the datetime selection was cancelled."
+  },
+  "ion-datetime/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value (selected date) has changed."
+  },
+  "ion-datetime/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the datetime has focus."
+  },
+  "ion-fab/activated": {
+    "type": "boolean",
+    "description": "If `true`, both the `ion-fab-button` and all `ion-fab-list` inside `ion-fab` will become active.\nThat means `ion-fab-button` will become a `close` icon and `ion-fab-list` will become visible."
+  },
+  "ion-fab/edge": {
+    "type": "boolean",
+    "description": "If `true`, the fab will display on the edge of the header if\n`vertical` is `\"top\"`, and on the edge of the footer if\nit is `\"bottom\"`. Should be used with a `fixed` slot."
+  },
+  "ion-fab/horizontal": {
+    "type": "\"center\" | \"end\" | \"start\" | undefined",
+    "description": "Where to align the fab horizontally in the viewport.",
+    "options": [
+      "center",
+      "end",
+      "start"
+    ]
+  },
+  "ion-fab/vertical": {
+    "type": "\"bottom\" | \"center\" | \"top\" | undefined",
+    "description": "Where to align the fab vertically in the viewport.",
+    "options": [
+      "bottom",
+      "center",
+      "top"
+    ]
+  },
+  "ion-fab-button/activated": {
+    "type": "boolean",
+    "description": "If `true`, the fab button will be show a close icon."
+  },
+  "ion-fab-button/close-icon": {
+    "type": "string",
+    "description": "The icon name to use for the close icon. This will appear when the fab button\nis pressed. Only applies if it is the main button inside of a fab containing a\nfab list."
+  },
+  "ion-fab-button/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-fab-button/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the fab button."
+  },
+  "ion-fab-button/download": {
+    "type": "string | undefined",
+    "description": "This attribute instructs browsers to download a URL instead of navigating to\nit, so the user will be prompted to save it as a local file. If the attribute\nhas a value, it is used as the pre-filled file name in the Save prompt\n(the user can still change the file name if they want)."
+  },
+  "ion-fab-button/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-fab-button/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-fab-button/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-fab-button/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "When using a router, it specifies the transition animation when navigating to\nanother page using `href`."
+  },
+  "ion-fab-button/router-direction": {
+    "type": "\"back\" | \"forward\" | \"root\"",
+    "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
+    "options": [
+      "back",
+      "forward",
+      "root"
+    ]
+  },
+  "ion-fab-button/show": {
+    "type": "boolean",
+    "description": "If `true`, the fab button will show when in a fab-list."
+  },
+  "ion-fab-button/size": {
+    "type": "\"small\" | undefined",
+    "description": "The size of the button. Set this to `small` in order to have a mini fab button.",
+    "options": [
+      "small"
+    ]
+  },
+  "ion-fab-button/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-fab-button/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the fab button will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-fab-button/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-fab-button/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the button loses focus."
+  },
+  "ion-fab-button/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the button has focus."
+  },
+  "ion-fab-list/activated": {
+    "type": "boolean",
+    "description": "If `true`, the fab list will show all fab buttons in the list."
+  },
+  "ion-fab-list/side": {
+    "type": "\"bottom\" | \"end\" | \"start\" | \"top\"",
+    "description": "The side the fab list will show on relative to the main fab button.",
+    "options": [
+      "bottom",
+      "end",
+      "start",
+      "top"
+    ]
+  },
+  "ion-footer/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-footer/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the footer will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility).\n\nNote: In order to scroll content behind the footer, the `fullscreen`\nattribute needs to be set on the content."
+  },
+  "ion-grid/fixed": {
+    "type": "boolean",
+    "description": "If `true`, the grid will have a fixed width based on the screen size."
+  },
+  "ion-header/collapse": {
+    "type": "\"condense\" | undefined",
+    "description": "Describes the scroll effect that will be applied to the header\n`condense` only applies in iOS mode.\n\nTypically used for [Collapsible Large Titles](https://ionicframework.com/docs/api/title#collapsible-large-titles)",
+    "options": [
+      "condense"
+    ]
+  },
+  "ion-header/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-header/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the header will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility).\n\nNote: In order to scroll content behind the header, the `fullscreen`\nattribute needs to be set on the content."
+  },
+  "ion-img/alt": {
+    "type": "string | undefined",
+    "description": "This attribute defines the alternative text describing the image.\nUsers will see this text displayed if the image URL is wrong,\nthe image is not in one of the supported formats, or if the image is not yet downloaded."
+  },
+  "ion-img/src": {
+    "type": "string | undefined",
+    "description": "The image URL. This attribute is mandatory for the `<img>` element."
+  },
+  "ion-img/ionError": {
+    "type": "event",
+    "description": "Emitted when the img fails to load"
+  },
+  "ion-img/ionImgDidLoad": {
+    "type": "event",
+    "description": "Emitted when the image has finished loading"
+  },
+  "ion-img/ionImgWillLoad": {
+    "type": "event",
+    "description": "Emitted when the img src has been set"
+  },
+  "ion-infinite-scroll/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the infinite scroll will be hidden and scroll event listeners\nwill be removed.\n\nSet this to true to disable the infinite scroll from actively\ntrying to receive new data while scrolling. This is useful\nwhen it is known that there is no more data that can be added, and\nthe infinite scroll is no longer needed."
+  },
+  "ion-infinite-scroll/position": {
+    "type": "\"bottom\" | \"top\"",
+    "description": "The position of the infinite scroll element.\nThe value can be either `top` or `bottom`.",
+    "options": [
+      "bottom",
+      "top"
+    ]
+  },
+  "ion-infinite-scroll/threshold": {
+    "type": "string",
+    "description": "The threshold distance from the bottom\nof the content to call the `infinite` output event when scrolled.\nThe threshold value can be either a percent, or\nin pixels. For example, use the value of `10%` for the `infinite`\noutput event to get called when the user has scrolled 10%\nfrom the bottom of the page. Use the value `100px` when the\nscroll is within 100 pixels from the bottom of the page."
+  },
+  "ion-infinite-scroll/ionInfinite": {
+    "type": "event",
+    "description": "Emitted when the scroll reaches\nthe threshold distance. From within your infinite handler,\nyou must call the infinite scroll's `complete()` method when\nyour async operation has completed."
+  },
+  "ion-infinite-scroll-content/loading-spinner": {
+    "type": "\"bubbles\" | \"circles\" | \"circular\" | \"crescent\" | \"dots\" | \"lines\" | \"lines-small\" | null | undefined",
+    "description": "An animated SVG spinner that shows while loading.",
+    "options": [
+      "bubbles",
+      "circles",
+      "circular",
+      "crescent",
+      "dots",
+      "lines",
+      "lines-small"
+    ]
+  },
+  "ion-infinite-scroll-content/loading-text": {
+    "type": "IonicSafeString | string | undefined",
+    "description": "Optional text to display while loading.\n`loadingText` can accept either plaintext or HTML as a string.\nTo display characters normally reserved for HTML, they\nmust be escaped. For example `<Ionic>` would become\n`&lt;Ionic&gt;`\n\nFor more information: [Security Documentation](https://ionicframework.com/docs/faq/security)"
+  },
+  "ion-input/accept": {
+    "type": "string | undefined",
+    "description": "If the value of the type attribute is `\"file\"`, then this attribute will indicate the types of files that the server accepts, otherwise it will be ignored. The value must be a comma-separated list of unique content type specifiers."
+  },
+  "ion-input/autocapitalize": {
+    "type": "string",
+    "description": "Indicates whether and how the text value should be automatically capitalized as it is entered/edited by the user."
+  },
+  "ion-input/autocomplete": {
+    "type": "\"on\" | \"off\" | \"name\" | \"honorific-prefix\" | \"given-name\" | \"additional-name\" | \"family-name\" | \"honorific-suffix\" | \"nickname\" | \"email\" | \"username\" | \"new-password\" | \"current-password\" | \"one-time-code\" | \"organization-title\" | \"organization\" | \"street-address\" | \"address-line1\" | \"address-line2\" | \"address-line3\" | \"address-level4\" | \"address-level3\" | \"address-level2\" | \"address-level1\" | \"country\" | \"country-name\" | \"postal-code\" | \"cc-name\" | \"cc-given-name\" | \"cc-additional-name\" | \"cc-family-name\" | \"cc-number\" | \"cc-exp\" | \"cc-exp-month\" | \"cc-exp-year\" | \"cc-csc\" | \"cc-type\" | \"transaction-currency\" | \"transaction-amount\" | \"language\" | \"bday\" | \"bday-day\" | \"bday-month\" | \"bday-year\" | \"sex\" | \"tel\" | \"tel-country-code\" | \"tel-national\" | \"tel-area-code\" | \"tel-local\" | \"tel-extension\" | \"impp\" | \"url\" | \"photo\"",
+    "description": "Indicates whether the value of the control can be automatically completed by the browser.",
+    "options": [
+      "on",
+      "off",
+      "name",
+      "honorific-prefix",
+      "given-name",
+      "additional-name",
+      "family-name",
+      "honorific-suffix",
+      "nickname",
+      "email",
+      "username",
+      "new-password",
+      "current-password",
+      "one-time-code",
+      "organization-title",
+      "organization",
+      "street-address",
+      "address-line1",
+      "address-line2",
+      "address-line3",
+      "address-level4",
+      "address-level3",
+      "address-level2",
+      "address-level1",
+      "country",
+      "country-name",
+      "postal-code",
+      "cc-name",
+      "cc-given-name",
+      "cc-additional-name",
+      "cc-family-name",
+      "cc-number",
+      "cc-exp",
+      "cc-exp-month",
+      "cc-exp-year",
+      "cc-csc",
+      "cc-type",
+      "transaction-currency",
+      "transaction-amount",
+      "language",
+      "bday",
+      "bday-day",
+      "bday-month",
+      "bday-year",
+      "sex",
+      "tel",
+      "tel-country-code",
+      "tel-national",
+      "tel-area-code",
+      "tel-local",
+      "tel-extension",
+      "impp",
+      "url",
+      "photo"
+    ]
+  },
+  "ion-input/autocorrect": {
+    "type": "\"off\" | \"on\"",
+    "description": "Whether auto correction should be enabled when the user is entering/editing the text value.",
+    "options": [
+      "off",
+      "on"
+    ]
+  },
+  "ion-input/autofocus": {
+    "type": "boolean",
+    "description": "This Boolean attribute lets you specify that a form control should have input focus when the page loads."
+  },
+  "ion-input/clear-input": {
+    "type": "boolean",
+    "description": "If `true`, a clear icon will appear in the input when there is a value. Clicking it clears the input."
+  },
+  "ion-input/clear-on-edit": {
+    "type": "boolean | undefined",
+    "description": "If `true`, the value will be cleared after focus upon edit. Defaults to `true` when `type` is `\"password\"`, `false` for all other types."
+  },
+  "ion-input/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-input/debounce": {
+    "type": "number",
+    "description": "Set the amount of time, in milliseconds, to wait to trigger the `ionChange` event after each keystroke."
+  },
+  "ion-input/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the input."
+  },
+  "ion-input/enterkeyhint": {
+    "type": "\"done\" | \"enter\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
+    "description": "A hint to the browser for which enter key to display.\nPossible values: `\"enter\"`, `\"done\"`, `\"go\"`, `\"next\"`,\n`\"previous\"`, `\"search\"`, and `\"send\"`.",
+    "options": [
+      "done",
+      "enter",
+      "go",
+      "next",
+      "previous",
+      "search",
+      "send"
+    ]
+  },
+  "ion-input/inputmode": {
+    "type": "\"decimal\" | \"email\" | \"none\" | \"numeric\" | \"search\" | \"tel\" | \"text\" | \"url\" | undefined",
+    "description": "A hint to the browser for which keyboard to display.\nPossible values: `\"none\"`, `\"text\"`, `\"tel\"`, `\"url\"`,\n`\"email\"`, `\"numeric\"`, `\"decimal\"`, and `\"search\"`.",
+    "options": [
+      "decimal",
+      "email",
+      "none",
+      "numeric",
+      "search",
+      "tel",
+      "text",
+      "url"
+    ]
+  },
+  "ion-input/max": {
+    "type": "string | undefined",
+    "description": "The maximum value, which must not be less than its minimum (min attribute) value."
+  },
+  "ion-input/maxlength": {
+    "type": "number | undefined",
+    "description": "If the value of the type attribute is `text`, `email`, `search`, `password`, `tel`, or `url`, this attribute specifies the maximum number of characters that the user can enter."
+  },
+  "ion-input/min": {
+    "type": "string | undefined",
+    "description": "The minimum value, which must not be greater than its maximum (max attribute) value."
+  },
+  "ion-input/minlength": {
+    "type": "number | undefined",
+    "description": "If the value of the type attribute is `text`, `email`, `search`, `password`, `tel`, or `url`, this attribute specifies the minimum number of characters that the user can enter."
+  },
+  "ion-input/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-input/multiple": {
+    "type": "boolean | undefined",
+    "description": "If `true`, the user can enter more than one value. This attribute applies when the type attribute is set to `\"email\"` or `\"file\"`, otherwise it is ignored."
+  },
+  "ion-input/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-input/pattern": {
+    "type": "string | undefined",
+    "description": "A regular expression that the value is checked against. The pattern must match the entire value, not just some subset. Use the title attribute to describe the pattern to help the user. This attribute applies when the value of the type attribute is `\"text\"`, `\"search\"`, `\"tel\"`, `\"url\"`, `\"email\"`, `\"date\"`, or `\"password\"`, otherwise it is ignored. When the type attribute is `\"date\"`, `pattern` will only be used in browsers that do not support the `\"date\"` input type natively. See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date for more information."
+  },
+  "ion-input/placeholder": {
+    "type": "null | string | undefined",
+    "description": "Instructional text that shows before the input has a value."
+  },
+  "ion-input/readonly": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot modify the value."
+  },
+  "ion-input/required": {
+    "type": "boolean",
+    "description": "If `true`, the user must fill in a value before submitting a form."
+  },
+  "ion-input/size": {
+    "type": "number | undefined",
+    "description": "The initial size of the control. This value is in pixels unless the value of the type attribute is `\"text\"` or `\"password\"`, in which case it is an integer number of characters. This attribute applies only when the `type` attribute is set to `\"text\"`, `\"search\"`, `\"tel\"`, `\"url\"`, `\"email\"`, or `\"password\"`, otherwise it is ignored."
+  },
+  "ion-input/spellcheck": {
+    "type": "boolean",
+    "description": "If `true`, the element will have its spelling and grammar checked."
+  },
+  "ion-input/step": {
+    "type": "string | undefined",
+    "description": "Works with the min and max attributes to limit the increments at which a value can be set.\nPossible values are: `\"any\"` or a positive floating point number."
+  },
+  "ion-input/type": {
+    "type": "\"date\" | \"datetime-local\" | \"email\" | \"month\" | \"number\" | \"password\" | \"search\" | \"tel\" | \"text\" | \"time\" | \"url\" | \"week\"",
+    "description": "The type of control to display. The default type is text.",
+    "options": [
+      "date",
+      "datetime-local",
+      "email",
+      "month",
+      "number",
+      "password",
+      "search",
+      "tel",
+      "text",
+      "time",
+      "url",
+      "week"
+    ]
+  },
+  "ion-input/value": {
+    "type": "null | number | string | undefined",
+    "description": "The value of the input."
+  },
+  "ion-input/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the input loses focus."
+  },
+  "ion-input/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value has changed."
+  },
+  "ion-input/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the input has focus."
+  },
+  "ion-input/ionInput": {
+    "type": "event",
+    "description": "Emitted when a keyboard input occurred."
+  },
+  "ion-item/button": {
+    "type": "boolean",
+    "description": "If `true`, a button tag will be rendered and the item will be tappable."
+  },
+  "ion-item/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-item/detail": {
+    "type": "boolean | undefined",
+    "description": "If `true`, a detail arrow will appear on the item. Defaults to `false` unless the `mode`\nis `ios` and an `href` or `button` property is present."
+  },
+  "ion-item/detail-icon": {
+    "type": "string",
+    "description": "The icon to use when `detail` is set to `true`."
+  },
+  "ion-item/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the item."
+  },
+  "ion-item/download": {
+    "type": "string | undefined",
+    "description": "This attribute instructs browsers to download a URL instead of navigating to\nit, so the user will be prompted to save it as a local file. If the attribute\nhas a value, it is used as the pre-filled file name in the Save prompt\n(the user can still change the file name if they want)."
+  },
+  "ion-item/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-item/lines": {
+    "type": "\"full\" | \"inset\" | \"none\" | undefined",
+    "description": "How the bottom border should be displayed on the item.",
+    "options": [
+      "full",
+      "inset",
+      "none"
+    ]
+  },
+  "ion-item/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-item/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-item/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "When using a router, it specifies the transition animation when navigating to\nanother page using `href`."
+  },
+  "ion-item/router-direction": {
+    "type": "\"back\" | \"forward\" | \"root\"",
+    "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
+    "options": [
+      "back",
+      "forward",
+      "root"
+    ]
+  },
+  "ion-item/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-item/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button. Only used when an `onclick` or `button` property is present.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-item-divider/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-item-divider/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-item-divider/sticky": {
+    "type": "boolean",
+    "description": "When it's set to `true`, the item-divider will stay visible when it reaches the top\nof the viewport until the next `ion-item-divider` replaces it.\n\nThis feature relies in `position:sticky`:\nhttps://caniuse.com/#feat=css-sticky"
+  },
+  "ion-item-option/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-item-option/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the item option."
+  },
+  "ion-item-option/download": {
+    "type": "string | undefined",
+    "description": "This attribute instructs browsers to download a URL instead of navigating to\nit, so the user will be prompted to save it as a local file. If the attribute\nhas a value, it is used as the pre-filled file name in the Save prompt\n(the user can still change the file name if they want)."
+  },
+  "ion-item-option/expandable": {
+    "type": "boolean",
+    "description": "If `true`, the option will expand to take up the available width and cover any other options."
+  },
+  "ion-item-option/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-item-option/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-item-option/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-item-option/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-item-option/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-item-options/side": {
+    "type": "\"end\" | \"start\"",
+    "description": "The side the option button should be on. Possible values: `\"start\"` and `\"end\"`. If you have multiple `ion-item-options`, a side must be provided for each.",
+    "options": [
+      "end",
+      "start"
+    ]
+  },
+  "ion-item-options/ionSwipe": {
+    "type": "event",
+    "description": "Emitted when the item has been fully swiped."
+  },
+  "ion-item-sliding/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the sliding item."
+  },
+  "ion-item-sliding/ionDrag": {
+    "type": "event",
+    "description": "Emitted when the sliding position changes."
+  },
+  "ion-label/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-label/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-label/position": {
+    "type": "\"fixed\" | \"floating\" | \"stacked\" | undefined",
+    "description": "The position determines where and how the label behaves inside an item.",
+    "options": [
+      "fixed",
+      "floating",
+      "stacked"
+    ]
+  },
+  "ion-list/inset": {
+    "type": "boolean",
+    "description": "If `true`, the list will have margin around it and rounded corners."
+  },
+  "ion-list/lines": {
+    "type": "\"full\" | \"inset\" | \"none\" | undefined",
+    "description": "How the bottom border should be displayed on all items.",
+    "options": [
+      "full",
+      "inset",
+      "none"
+    ]
+  },
+  "ion-list/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-list-header/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-list-header/lines": {
+    "type": "\"full\" | \"inset\" | \"none\" | undefined",
+    "description": "How the bottom border should be displayed on the list header.",
+    "options": [
+      "full",
+      "inset",
+      "none"
+    ]
+  },
+  "ion-list-header/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-loading/animated": {
+    "type": "boolean",
+    "description": "If `true`, the loading indicator will animate."
+  },
+  "ion-loading/backdrop-dismiss": {
+    "type": "boolean",
+    "description": "If `true`, the loading indicator will be dismissed when the backdrop is clicked."
+  },
+  "ion-loading/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-loading/duration": {
+    "type": "number",
+    "description": "Number of milliseconds to wait before dismissing the loading indicator."
+  },
+  "ion-loading/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the loading indicator is presented."
+  },
+  "ion-loading/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-loading/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the loading indicator is dismissed."
+  },
+  "ion-loading/message": {
+    "type": "IonicSafeString | string | undefined",
+    "description": "Optional text content to display in the loading indicator."
+  },
+  "ion-loading/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-loading/show-backdrop": {
+    "type": "boolean",
+    "description": "If `true`, a backdrop will be displayed behind the loading indicator."
+  },
+  "ion-loading/spinner": {
+    "type": "\"bubbles\" | \"circles\" | \"circular\" | \"crescent\" | \"dots\" | \"lines\" | \"lines-small\" | null | undefined",
+    "description": "The name of the spinner to display.",
+    "options": [
+      "bubbles",
+      "circles",
+      "circular",
+      "crescent",
+      "dots",
+      "lines",
+      "lines-small"
+    ]
+  },
+  "ion-loading/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the loading indicator will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-loading/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the loading has dismissed."
+  },
+  "ion-loading/didPresent": {
+    "type": "event",
+    "description": "Emitted after the loading has presented."
+  },
+  "ion-loading/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the loading has dismissed."
+  },
+  "ion-loading/willPresent": {
+    "type": "event",
+    "description": "Emitted before the loading has presented."
+  },
+  "ion-menu/content-id": {
+    "type": "string | undefined",
+    "description": "The content's id the menu should use."
+  },
+  "ion-menu/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the menu is disabled."
+  },
+  "ion-menu/max-edge-start": {
+    "type": "number",
+    "description": "The edge threshold for dragging the menu open.\nIf a drag/swipe happens over this value, the menu is not triggered."
+  },
+  "ion-menu/menu-id": {
+    "type": "string | undefined",
+    "description": "An id for the menu."
+  },
+  "ion-menu/side": {
+    "type": "\"end\" | \"start\"",
+    "description": "Which side of the view the menu should be placed.",
+    "options": [
+      "end",
+      "start"
+    ]
+  },
+  "ion-menu/swipe-gesture": {
+    "type": "boolean",
+    "description": "If `true`, swiping the menu is enabled."
+  },
+  "ion-menu/type": {
+    "type": "string | undefined",
+    "description": "The display type of the menu.\nAvailable options: `\"overlay\"`, `\"reveal\"`, `\"push\"`."
+  },
+  "ion-menu/ionDidClose": {
+    "type": "event",
+    "description": "Emitted when the menu is closed."
+  },
+  "ion-menu/ionDidOpen": {
+    "type": "event",
+    "description": "Emitted when the menu is open."
+  },
+  "ion-menu/ionWillClose": {
+    "type": "event",
+    "description": "Emitted when the menu is about to be closed."
+  },
+  "ion-menu/ionWillOpen": {
+    "type": "event",
+    "description": "Emitted when the menu is about to be opened."
+  },
+  "ion-menu-button/auto-hide": {
+    "type": "boolean",
+    "description": "Automatically hides the menu button when the corresponding menu is not active"
+  },
+  "ion-menu-button/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-menu-button/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the menu button."
+  },
+  "ion-menu-button/menu": {
+    "type": "string | undefined",
+    "description": "Optional property that maps to a Menu's `menuId` prop. Can also be `start` or `end` for the menu side. This is used to find the correct menu to toggle"
+  },
+  "ion-menu-button/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-menu-button/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-menu-toggle/auto-hide": {
+    "type": "boolean",
+    "description": "Automatically hides the content when the corresponding menu is not active.\n\nBy default, it's `true`. Change it to `false` in order to\nkeep `ion-menu-toggle` always visible regardless the state of the menu."
+  },
+  "ion-menu-toggle/menu": {
+    "type": "string | undefined",
+    "description": "Optional property that maps to a Menu's `menuId` prop.\nCan also be `start` or `end` for the menu side.\nThis is used to find the correct menu to toggle.\n\nIf this property is not used, `ion-menu-toggle` will toggle the\nfirst menu that is active."
+  },
+  "ion-modal/animated": {
+    "type": "boolean",
+    "description": "If `true`, the modal will animate."
+  },
+  "ion-modal/backdrop-dismiss": {
+    "type": "boolean",
+    "description": "If `true`, the modal will be dismissed when the backdrop is clicked."
+  },
+  "ion-modal/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-modal/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the modal is presented."
+  },
+  "ion-modal/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-modal/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the modal is dismissed."
+  },
+  "ion-modal/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-modal/presenting-element": {
+    "type": "HTMLElement | undefined",
+    "description": "The element that presented the modal. This is used for card presentation effects\nand for stacking multiple modals on top of each other. Only applies in iOS mode."
+  },
+  "ion-modal/show-backdrop": {
+    "type": "boolean",
+    "description": "If `true`, a backdrop will be displayed behind the modal."
+  },
+  "ion-modal/swipe-to-close": {
+    "type": "boolean",
+    "description": "If `true`, the modal can be swiped to dismiss. Only applies in iOS mode."
+  },
+  "ion-modal/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the modal has dismissed."
+  },
+  "ion-modal/didPresent": {
+    "type": "event",
+    "description": "Emitted after the modal has presented."
+  },
+  "ion-modal/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the modal has dismissed."
+  },
+  "ion-modal/willPresent": {
+    "type": "event",
+    "description": "Emitted before the modal has presented."
+  },
+  "ion-note/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-note/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-picker/animated": {
+    "type": "boolean",
+    "description": "If `true`, the picker will animate."
+  },
+  "ion-picker/backdrop-dismiss": {
+    "type": "boolean",
+    "description": "If `true`, the picker will be dismissed when the backdrop is clicked."
+  },
+  "ion-picker/buttons": {
+    "type": "PickerButton[]",
+    "description": "Array of buttons to be displayed at the top of the picker."
+  },
+  "ion-picker/columns": {
+    "type": "PickerColumn[]",
+    "description": "Array of columns to be displayed in the picker."
+  },
+  "ion-picker/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-picker/duration": {
+    "type": "number",
+    "description": "Number of milliseconds to wait before dismissing the picker."
+  },
+  "ion-picker/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the picker is presented."
+  },
+  "ion-picker/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-picker/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the picker is dismissed."
+  },
+  "ion-picker/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-picker/show-backdrop": {
+    "type": "boolean",
+    "description": "If `true`, a backdrop will be displayed behind the picker."
+  },
+  "ion-picker/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the picker has dismissed."
+  },
+  "ion-picker/didPresent": {
+    "type": "event",
+    "description": "Emitted after the picker has presented."
+  },
+  "ion-picker/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the picker has dismissed."
+  },
+  "ion-picker/willPresent": {
+    "type": "event",
+    "description": "Emitted before the picker has presented."
+  },
+  "ion-popover/animated": {
+    "type": "boolean",
+    "description": "If `true`, the popover will animate."
+  },
+  "ion-popover/backdrop-dismiss": {
+    "type": "boolean",
+    "description": "If `true`, the popover will be dismissed when the backdrop is clicked."
+  },
+  "ion-popover/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-popover/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the popover is presented."
+  },
+  "ion-popover/event": {
+    "type": "any",
+    "description": "The event to pass to the popover animation."
+  },
+  "ion-popover/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-popover/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the popover is dismissed."
+  },
+  "ion-popover/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-popover/show-backdrop": {
+    "type": "boolean",
+    "description": "If `true`, a backdrop will be displayed behind the popover."
+  },
+  "ion-popover/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the popover will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-popover/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the popover has dismissed."
+  },
+  "ion-popover/didPresent": {
+    "type": "event",
+    "description": "Emitted after the popover has presented."
+  },
+  "ion-popover/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the popover has dismissed."
+  },
+  "ion-popover/willPresent": {
+    "type": "event",
+    "description": "Emitted before the popover has presented."
+  },
+  "ion-progress-bar/buffer": {
+    "type": "number",
+    "description": "If the buffer and value are smaller than 1, the buffer circles will show.\nThe buffer should be between [0, 1]."
+  },
+  "ion-progress-bar/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-progress-bar/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-progress-bar/reversed": {
+    "type": "boolean",
+    "description": "If true, reverse the progress bar direction."
+  },
+  "ion-progress-bar/type": {
+    "type": "\"determinate\" | \"indeterminate\"",
+    "description": "The state of the progress bar, based on if the time the process takes is known or not.\nDefault options are: `\"determinate\"` (no animation), `\"indeterminate\"` (animate from left to right).",
+    "options": [
+      "determinate",
+      "indeterminate"
+    ]
+  },
+  "ion-progress-bar/value": {
+    "type": "number",
+    "description": "The value determines how much of the active bar should display when the\n`type` is `\"determinate\"`.\nThe value should be between [0, 1]."
+  },
+  "ion-radio/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-radio/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the radio."
+  },
+  "ion-radio/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-radio/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-radio/value": {
+    "type": "any",
+    "description": "the value of the radio."
+  },
+  "ion-radio/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the radio button loses focus."
+  },
+  "ion-radio/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the radio button has focus."
+  },
+  "ion-radio-group/allow-empty-selection": {
+    "type": "boolean",
+    "description": "If `true`, the radios can be deselected."
+  },
+  "ion-radio-group/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-radio-group/value": {
+    "type": "any",
+    "description": "the value of the radio group."
+  },
+  "ion-radio-group/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value has changed."
+  },
+  "ion-range/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-range/debounce": {
+    "type": "number",
+    "description": "How long, in milliseconds, to wait to trigger the\n`ionChange` event after each change in the range value."
+  },
+  "ion-range/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the range."
+  },
+  "ion-range/dual-knobs": {
+    "type": "boolean",
+    "description": "Show two knobs."
+  },
+  "ion-range/max": {
+    "type": "number",
+    "description": "Maximum integer value of the range."
+  },
+  "ion-range/min": {
+    "type": "number",
+    "description": "Minimum integer value of the range."
+  },
+  "ion-range/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-range/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-range/pin": {
+    "type": "boolean",
+    "description": "If `true`, a pin with integer value is shown when the knob\nis pressed."
+  },
+  "ion-range/snaps": {
+    "type": "boolean",
+    "description": "If `true`, the knob snaps to tick marks evenly spaced based\non the step property value."
+  },
+  "ion-range/step": {
+    "type": "number",
+    "description": "Specifies the value granularity."
+  },
+  "ion-range/ticks": {
+    "type": "boolean",
+    "description": "If `true`, tick marks are displayed based on the step value.\nOnly applies when `snaps` is `true`."
+  },
+  "ion-range/value": {
+    "type": "number | { lower: number; upper: number; }",
+    "description": "the value of the range."
+  },
+  "ion-range/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the range loses focus."
+  },
+  "ion-range/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value property has changed."
+  },
+  "ion-range/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the range has focus."
+  },
+  "ion-refresher/close-duration": {
+    "type": "string",
+    "description": "Time it takes to close the refresher.\nDoes not apply when the refresher content uses a spinner,\nenabling the native refresher."
+  },
+  "ion-refresher/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the refresher will be hidden."
+  },
+  "ion-refresher/pull-factor": {
+    "type": "number",
+    "description": "How much to multiply the pull speed by. To slow the pull animation down,\npass a number less than `1`. To speed up the pull, pass a number greater\nthan `1`. The default value is `1` which is equal to the speed of the cursor.\nIf a negative value is passed in, the factor will be `1` instead.\n\nFor example: If the value passed is `1.2` and the content is dragged by\n`10` pixels, instead of `10` pixels the content will be pulled by `12` pixels\n(an increase of 20 percent). If the value passed is `0.8`, the dragged amount\nwill be `8` pixels, less than the amount the cursor has moved.\n\nDoes not apply when the refresher content uses a spinner,\nenabling the native refresher."
+  },
+  "ion-refresher/pull-max": {
+    "type": "number",
+    "description": "The maximum distance of the pull until the refresher\nwill automatically go into the `refreshing` state.\nDefaults to the result of `pullMin + 60`.\nDoes not apply when  the refresher content uses a spinner,\nenabling the native refresher."
+  },
+  "ion-refresher/pull-min": {
+    "type": "number",
+    "description": "The minimum distance the user must pull down until the\nrefresher will go into the `refreshing` state.\nDoes not apply when the refresher content uses a spinner,\nenabling the native refresher."
+  },
+  "ion-refresher/snapback-duration": {
+    "type": "string",
+    "description": "Time it takes the refresher to to snap back to the `refreshing` state.\nDoes not apply when the refresher content uses a spinner,\nenabling the native refresher."
+  },
+  "ion-refresher/ionPull": {
+    "type": "event",
+    "description": "Emitted while the user is pulling down the content and exposing the refresher."
+  },
+  "ion-refresher/ionRefresh": {
+    "type": "event",
+    "description": "Emitted when the user lets go of the content and has pulled down\nfurther than the `pullMin` or pulls the content down and exceeds the pullMax.\nUpdates the refresher state to `refreshing`. The `complete()` method should be\ncalled when the async operation has completed."
+  },
+  "ion-refresher/ionStart": {
+    "type": "event",
+    "description": "Emitted when the user begins to start pulling down."
+  },
+  "ion-refresher-content/pulling-icon": {
+    "type": "null | string | undefined",
+    "description": "A static icon or a spinner to display when you begin to pull down.\nA spinner name can be provided to gradually show tick marks\nwhen pulling down on iOS devices."
+  },
+  "ion-refresher-content/pulling-text": {
+    "type": "IonicSafeString | string | undefined",
+    "description": "The text you want to display when you begin to pull down.\n`pullingText` can accept either plaintext or HTML as a string.\nTo display characters normally reserved for HTML, they\nmust be escaped. For example `<Ionic>` would become\n`&lt;Ionic&gt;`\n\nFor more information: [Security Documentation](https://ionicframework.com/docs/faq/security)"
+  },
+  "ion-refresher-content/refreshing-spinner": {
+    "type": "\"bubbles\" | \"circles\" | \"circular\" | \"crescent\" | \"dots\" | \"lines\" | \"lines-small\" | null | undefined",
+    "description": "An animated SVG spinner that shows when refreshing begins",
+    "options": [
+      "bubbles",
+      "circles",
+      "circular",
+      "crescent",
+      "dots",
+      "lines",
+      "lines-small"
+    ]
+  },
+  "ion-refresher-content/refreshing-text": {
+    "type": "IonicSafeString | string | undefined",
+    "description": "The text you want to display when performing a refresh.\n`refreshingText` can accept either plaintext or HTML as a string.\nTo display characters normally reserved for HTML, they\nmust be escaped. For example `<Ionic>` would become\n`&lt;Ionic&gt;`\n\nFor more information: [Security Documentation](https://ionicframework.com/docs/faq/security)"
+  },
+  "ion-reorder-group/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the reorder will be hidden."
+  },
+  "ion-reorder-group/ionItemReorder": {
+    "type": "event",
+    "description": "Event that needs to be listened to in order to complete the reorder action.\nOnce the event has been emitted, the `complete()` method then needs\nto be called in order to finalize the reorder action."
+  },
+  "ion-ripple-effect/type": {
+    "type": "\"bounded\" | \"unbounded\"",
+    "description": "Sets the type of ripple-effect:\n\n- `bounded`: the ripple effect expands from the user's click position\n- `unbounded`: the ripple effect expands from the center of the button and overflows the container.\n\nNOTE: Surfaces for bounded ripples should have the overflow property set to hidden,\nwhile surfaces for unbounded ripples should have it set to visible.",
+    "options": [
+      "bounded",
+      "unbounded"
+    ]
+  },
+  "ion-router-link/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-router-link/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-router-link/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-router-link/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "When using a router, it specifies the transition animation when navigating to\nanother page using `href`."
+  },
+  "ion-router-link/router-direction": {
+    "type": "\"back\" | \"forward\" | \"root\"",
+    "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
+    "options": [
+      "back",
+      "forward",
+      "root"
+    ]
+  },
+  "ion-router-link/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-router-outlet/animated": {
+    "type": "boolean",
+    "description": "If `true`, the router-outlet should animate the transition of components."
+  },
+  "ion-router-outlet/animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "By default `ion-nav` animates transition between pages based in the mode (ios or material design).\nHowever, this property allows to create custom transition using `AnimateBuilder` functions."
+  },
+  "ion-router-outlet/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-searchbar/animated": {
+    "type": "boolean",
+    "description": "If `true`, enable searchbar animation."
+  },
+  "ion-searchbar/autocomplete": {
+    "type": "\"on\" | \"off\" | \"name\" | \"honorific-prefix\" | \"given-name\" | \"additional-name\" | \"family-name\" | \"honorific-suffix\" | \"nickname\" | \"email\" | \"username\" | \"new-password\" | \"current-password\" | \"one-time-code\" | \"organization-title\" | \"organization\" | \"street-address\" | \"address-line1\" | \"address-line2\" | \"address-line3\" | \"address-level4\" | \"address-level3\" | \"address-level2\" | \"address-level1\" | \"country\" | \"country-name\" | \"postal-code\" | \"cc-name\" | \"cc-given-name\" | \"cc-additional-name\" | \"cc-family-name\" | \"cc-number\" | \"cc-exp\" | \"cc-exp-month\" | \"cc-exp-year\" | \"cc-csc\" | \"cc-type\" | \"transaction-currency\" | \"transaction-amount\" | \"language\" | \"bday\" | \"bday-day\" | \"bday-month\" | \"bday-year\" | \"sex\" | \"tel\" | \"tel-country-code\" | \"tel-national\" | \"tel-area-code\" | \"tel-local\" | \"tel-extension\" | \"impp\" | \"url\" | \"photo\"",
+    "description": "Set the input's autocomplete property.",
+    "options": [
+      "on",
+      "off",
+      "name",
+      "honorific-prefix",
+      "given-name",
+      "additional-name",
+      "family-name",
+      "honorific-suffix",
+      "nickname",
+      "email",
+      "username",
+      "new-password",
+      "current-password",
+      "one-time-code",
+      "organization-title",
+      "organization",
+      "street-address",
+      "address-line1",
+      "address-line2",
+      "address-line3",
+      "address-level4",
+      "address-level3",
+      "address-level2",
+      "address-level1",
+      "country",
+      "country-name",
+      "postal-code",
+      "cc-name",
+      "cc-given-name",
+      "cc-additional-name",
+      "cc-family-name",
+      "cc-number",
+      "cc-exp",
+      "cc-exp-month",
+      "cc-exp-year",
+      "cc-csc",
+      "cc-type",
+      "transaction-currency",
+      "transaction-amount",
+      "language",
+      "bday",
+      "bday-day",
+      "bday-month",
+      "bday-year",
+      "sex",
+      "tel",
+      "tel-country-code",
+      "tel-national",
+      "tel-area-code",
+      "tel-local",
+      "tel-extension",
+      "impp",
+      "url",
+      "photo"
+    ]
+  },
+  "ion-searchbar/autocorrect": {
+    "type": "\"off\" | \"on\"",
+    "description": "Set the input's autocorrect property.",
+    "options": [
+      "off",
+      "on"
+    ]
+  },
+  "ion-searchbar/cancel-button-icon": {
+    "type": "string",
+    "description": "Set the cancel button icon. Only applies to `md` mode.\nDefaults to `\"arrow-back-sharp\"`."
+  },
+  "ion-searchbar/cancel-button-text": {
+    "type": "string",
+    "description": "Set the the cancel button text. Only applies to `ios` mode."
+  },
+  "ion-searchbar/clear-icon": {
+    "type": "string | undefined",
+    "description": "Set the clear icon. Defaults to `\"close-circle\"` for `ios` and `\"close-sharp\"` for `md`."
+  },
+  "ion-searchbar/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-searchbar/debounce": {
+    "type": "number",
+    "description": "Set the amount of time, in milliseconds, to wait to trigger the `ionChange` event after each keystroke."
+  },
+  "ion-searchbar/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the input."
+  },
+  "ion-searchbar/enterkeyhint": {
+    "type": "\"done\" | \"enter\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
+    "description": "A hint to the browser for which enter key to display.\nPossible values: `\"enter\"`, `\"done\"`, `\"go\"`, `\"next\"`,\n`\"previous\"`, `\"search\"`, and `\"send\"`.",
+    "options": [
+      "done",
+      "enter",
+      "go",
+      "next",
+      "previous",
+      "search",
+      "send"
+    ]
+  },
+  "ion-searchbar/inputmode": {
+    "type": "\"decimal\" | \"email\" | \"none\" | \"numeric\" | \"search\" | \"tel\" | \"text\" | \"url\" | undefined",
+    "description": "A hint to the browser for which keyboard to display.\nPossible values: `\"none\"`, `\"text\"`, `\"tel\"`, `\"url\"`,\n`\"email\"`, `\"numeric\"`, `\"decimal\"`, and `\"search\"`.",
+    "options": [
+      "decimal",
+      "email",
+      "none",
+      "numeric",
+      "search",
+      "tel",
+      "text",
+      "url"
+    ]
+  },
+  "ion-searchbar/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-searchbar/placeholder": {
+    "type": "string",
+    "description": "Set the input's placeholder.\n`placeholder` can accept either plaintext or HTML as a string.\nTo display characters normally reserved for HTML, they\nmust be escaped. For example `<Ionic>` would become\n`&lt;Ionic&gt;`\n\nFor more information: [Security Documentation](https://ionicframework.com/docs/faq/security)"
+  },
+  "ion-searchbar/search-icon": {
+    "type": "string | undefined",
+    "description": "The icon to use as the search icon. Defaults to `\"search-outline\"` in\n`ios` mode and `\"search-sharp\"` in `md` mode."
+  },
+  "ion-searchbar/show-cancel-button": {
+    "type": "\"always\" | \"focus\" | \"never\"",
+    "description": "Sets the behavior for the cancel button. Defaults to `\"never\"`.\nSetting to `\"focus\"` shows the cancel button on focus.\nSetting to `\"never\"` hides the cancel button.\nSetting to `\"always\"` shows the cancel button regardless\nof focus state.",
+    "options": [
+      "always",
+      "focus",
+      "never"
+    ]
+  },
+  "ion-searchbar/spellcheck": {
+    "type": "boolean",
+    "description": "If `true`, enable spellcheck on the input."
+  },
+  "ion-searchbar/type": {
+    "type": "\"email\" | \"number\" | \"password\" | \"search\" | \"tel\" | \"text\" | \"url\"",
+    "description": "Set the type of the input.",
+    "options": [
+      "email",
+      "number",
+      "password",
+      "search",
+      "tel",
+      "text",
+      "url"
+    ]
+  },
+  "ion-searchbar/value": {
+    "type": "null | string | undefined",
+    "description": "the value of the searchbar."
+  },
+  "ion-searchbar/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the input loses focus."
+  },
+  "ion-searchbar/ionCancel": {
+    "type": "event",
+    "description": "Emitted when the cancel button is clicked."
+  },
+  "ion-searchbar/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value has changed."
+  },
+  "ion-searchbar/ionClear": {
+    "type": "event",
+    "description": "Emitted when the clear input button is clicked."
+  },
+  "ion-searchbar/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the input has focus."
+  },
+  "ion-searchbar/ionInput": {
+    "type": "event",
+    "description": "Emitted when a keyboard input occurred."
+  },
+  "ion-segment/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-segment/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the segment."
+  },
+  "ion-segment/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-segment/scrollable": {
+    "type": "boolean",
+    "description": "If `true`, the segment buttons will overflow and the user can swipe to see them.\nIn addition, this will disable the gesture to drag the indicator between the buttons\nin order to swipe to see hidden buttons."
+  },
+  "ion-segment/value": {
+    "type": "null | string | undefined",
+    "description": "the value of the segment."
+  },
+  "ion-segment/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value property has changed and any\ndragging pointer has been released from `ion-segment`."
+  },
+  "ion-segment-button/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the segment button."
+  },
+  "ion-segment-button/layout": {
+    "type": "\"icon-bottom\" | \"icon-end\" | \"icon-hide\" | \"icon-start\" | \"icon-top\" | \"label-hide\" | undefined",
+    "description": "Set the layout of the text and icon in the segment.",
+    "options": [
+      "icon-bottom",
+      "icon-end",
+      "icon-hide",
+      "icon-start",
+      "icon-top",
+      "label-hide"
+    ]
+  },
+  "ion-segment-button/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-segment-button/type": {
+    "type": "\"button\" | \"reset\" | \"submit\"",
+    "description": "The type of the button.",
+    "options": [
+      "button",
+      "reset",
+      "submit"
+    ]
+  },
+  "ion-segment-button/value": {
+    "type": "string",
+    "description": "The value of the segment button."
+  },
+  "ion-select/cancel-text": {
+    "type": "string",
+    "description": "The text to display on the cancel button."
+  },
+  "ion-select/compare-with": {
+    "type": "((currentValue: any, compareValue: any) => boolean) | null | string | undefined",
+    "description": "A property name or function used to compare object values"
+  },
+  "ion-select/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the select."
+  },
+  "ion-select/interface": {
+    "type": "\"action-sheet\" | \"alert\" | \"popover\"",
+    "description": "The interface the select should use: `action-sheet`, `popover` or `alert`.",
+    "options": [
+      "action-sheet",
+      "alert",
+      "popover"
+    ]
+  },
+  "ion-select/interface-options": {
+    "type": "any",
+    "description": "Any additional options that the `alert`, `action-sheet` or `popover` interface\ncan take. See the [ion-alert docs](../alert), the\n[ion-action-sheet docs](../action-sheet) and the\n[ion-popover docs](../popover) for the\ncreate options for each interface.\n\nNote: `interfaceOptions` will not override `inputs` or `buttons` with the `alert` interface."
+  },
+  "ion-select/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-select/multiple": {
+    "type": "boolean",
+    "description": "If `true`, the select can accept multiple values."
+  },
+  "ion-select/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-select/ok-text": {
+    "type": "string",
+    "description": "The text to display on the ok button."
+  },
+  "ion-select/placeholder": {
+    "type": "null | string | undefined",
+    "description": "The text to display when the select is empty."
+  },
+  "ion-select/selected-text": {
+    "type": "null | string | undefined",
+    "description": "The text to display instead of the selected option's value."
+  },
+  "ion-select/value": {
+    "type": "any",
+    "description": "the value of the select."
+  },
+  "ion-select/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the select loses focus."
+  },
+  "ion-select/ionCancel": {
+    "type": "event",
+    "description": "Emitted when the selection is cancelled."
+  },
+  "ion-select/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value has changed."
+  },
+  "ion-select/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the select has focus."
+  },
+  "ion-select-option/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the select option. This property does not apply when `interface=\"action-sheet\"` as `ion-action-sheet` does not allow for disabled buttons."
+  },
+  "ion-select-option/value": {
+    "type": "any",
+    "description": "The text value of the option."
+  },
+  "ion-skeleton-text/animated": {
+    "type": "boolean",
+    "description": "If `true`, the skeleton text will animate."
+  },
+  "ion-slides/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-slides/options": {
+    "type": "any",
+    "description": "Options to pass to the swiper instance.\nSee http://idangero.us/swiper/api/ for valid options"
+  },
+  "ion-slides/pager": {
+    "type": "boolean",
+    "description": "If `true`, show the pagination."
+  },
+  "ion-slides/scrollbar": {
+    "type": "boolean",
+    "description": "If `true`, show the scrollbar."
+  },
+  "ion-slides/ionSlideDidChange": {
+    "type": "event",
+    "description": "Emitted after the active slide has changed."
+  },
+  "ion-slides/ionSlideDoubleTap": {
+    "type": "event",
+    "description": "Emitted when the user double taps on the slide's container."
+  },
+  "ion-slides/ionSlideDrag": {
+    "type": "event",
+    "description": "Emitted when the slider is actively being moved."
+  },
+  "ion-slides/ionSlideNextEnd": {
+    "type": "event",
+    "description": "Emitted when the next slide has ended."
+  },
+  "ion-slides/ionSlideNextStart": {
+    "type": "event",
+    "description": "Emitted when the next slide has started."
+  },
+  "ion-slides/ionSlidePrevEnd": {
+    "type": "event",
+    "description": "Emitted when the previous slide has ended."
+  },
+  "ion-slides/ionSlidePrevStart": {
+    "type": "event",
+    "description": "Emitted when the previous slide has started."
+  },
+  "ion-slides/ionSlideReachEnd": {
+    "type": "event",
+    "description": "Emitted when the slider is at the last slide."
+  },
+  "ion-slides/ionSlideReachStart": {
+    "type": "event",
+    "description": "Emitted when the slider is at its initial position."
+  },
+  "ion-slides/ionSlidesDidLoad": {
+    "type": "event",
+    "description": "Emitted after Swiper initialization"
+  },
+  "ion-slides/ionSlideTap": {
+    "type": "event",
+    "description": "Emitted when the user taps/clicks on the slide's container."
+  },
+  "ion-slides/ionSlideTouchEnd": {
+    "type": "event",
+    "description": "Emitted when the user releases the touch."
+  },
+  "ion-slides/ionSlideTouchStart": {
+    "type": "event",
+    "description": "Emitted when the user first touches the slider."
+  },
+  "ion-slides/ionSlideTransitionEnd": {
+    "type": "event",
+    "description": "Emitted when the slide transition has ended."
+  },
+  "ion-slides/ionSlideTransitionStart": {
+    "type": "event",
+    "description": "Emitted when the slide transition has started."
+  },
+  "ion-slides/ionSlideWillChange": {
+    "type": "event",
+    "description": "Emitted before the active slide has changed."
+  },
+  "ion-spinner/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-spinner/duration": {
+    "type": "number | undefined",
+    "description": "Duration of the spinner animation in milliseconds. The default varies based on the spinner."
+  },
+  "ion-spinner/name": {
+    "type": "\"bubbles\" | \"circles\" | \"circular\" | \"crescent\" | \"dots\" | \"lines\" | \"lines-small\" | undefined",
+    "description": "The name of the SVG spinner to use. If a name is not provided, the platform's default\nspinner will be used.",
+    "options": [
+      "bubbles",
+      "circles",
+      "circular",
+      "crescent",
+      "dots",
+      "lines",
+      "lines-small"
+    ]
+  },
+  "ion-spinner/paused": {
+    "type": "boolean",
+    "description": "If `true`, the spinner's animation will be paused."
+  },
+  "ion-split-pane/content-id": {
+    "type": "string | undefined",
+    "description": "The content `id` of the split-pane's main content."
+  },
+  "ion-split-pane/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the split pane will be hidden."
+  },
+  "ion-split-pane/when": {
+    "type": "boolean | string",
+    "description": "When the split-pane should be shown.\nCan be a CSS media query expression, or a shortcut expression.\nCan also be a boolean expression."
+  },
+  "ion-split-pane/ionSplitPaneVisible": {
+    "type": "event",
+    "description": "Expression to be called when the split-pane visibility has changed"
+  },
+  "ion-tab/tab": {
+    "type": "string",
+    "description": "A tab id must be provided for each `ion-tab`. It's used internally to reference\nthe selected tab or by the router to switch between them."
+  },
+  "ion-tab-bar/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-tab-bar/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-tab-bar/selected-tab": {
+    "type": "string | undefined",
+    "description": "The selected tab component"
+  },
+  "ion-tab-bar/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the tab bar will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-tab-button/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the tab button."
+  },
+  "ion-tab-button/download": {
+    "type": "string | undefined",
+    "description": "This attribute instructs browsers to download a URL instead of navigating to\nit, so the user will be prompted to save it as a local file. If the attribute\nhas a value, it is used as the pre-filled file name in the Save prompt\n(the user can still change the file name if they want)."
+  },
+  "ion-tab-button/href": {
+    "type": "string | undefined",
+    "description": "Contains a URL or a URL fragment that the hyperlink points to.\nIf this property is set, an anchor tag will be rendered."
+  },
+  "ion-tab-button/layout": {
+    "type": "\"icon-bottom\" | \"icon-end\" | \"icon-hide\" | \"icon-start\" | \"icon-top\" | \"label-hide\" | undefined",
+    "description": "Set the layout of the text and icon in the tab bar.\nIt defaults to `'icon-top'`.",
+    "options": [
+      "icon-bottom",
+      "icon-end",
+      "icon-hide",
+      "icon-start",
+      "icon-top",
+      "label-hide"
+    ]
+  },
+  "ion-tab-button/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-tab-button/rel": {
+    "type": "string | undefined",
+    "description": "Specifies the relationship of the target object to the link object.\nThe value is a space-separated list of [link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)."
+  },
+  "ion-tab-button/selected": {
+    "type": "boolean",
+    "description": "The selected tab component"
+  },
+  "ion-tab-button/tab": {
+    "type": "string | undefined",
+    "description": "A tab id must be provided for each `ion-tab`. It's used internally to reference\nthe selected tab or by the router to switch between them."
+  },
+  "ion-tab-button/target": {
+    "type": "string | undefined",
+    "description": "Specifies where to display the linked URL.\nOnly applies when an `href` is provided.\nSpecial keywords: `\"_blank\"`, `\"_self\"`, `\"_parent\"`, `\"_top\"`."
+  },
+  "ion-tabs/ionTabsDidChange": {
+    "type": "event",
+    "description": "Emitted when the navigation has finished transitioning to a new component."
+  },
+  "ion-tabs/ionTabsWillChange": {
+    "type": "event",
+    "description": "Emitted when the navigation is about to transition to a new component."
+  },
+  "ion-text/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-text/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-textarea/auto-grow": {
+    "type": "boolean",
+    "description": "If `true`, the element height will increase based on the value."
+  },
+  "ion-textarea/autocapitalize": {
+    "type": "string",
+    "description": "Indicates whether and how the text value should be automatically capitalized as it is entered/edited by the user."
+  },
+  "ion-textarea/autofocus": {
+    "type": "boolean",
+    "description": "This Boolean attribute lets you specify that a form control should have input focus when the page loads."
+  },
+  "ion-textarea/clear-on-edit": {
+    "type": "boolean",
+    "description": "If `true`, the value will be cleared after focus upon edit. Defaults to `true` when `type` is `\"password\"`, `false` for all other types."
+  },
+  "ion-textarea/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-textarea/cols": {
+    "type": "number | undefined",
+    "description": "The visible width of the text control, in average character widths. If it is specified, it must be a positive integer."
+  },
+  "ion-textarea/debounce": {
+    "type": "number",
+    "description": "Set the amount of time, in milliseconds, to wait to trigger the `ionChange` event after each keystroke."
+  },
+  "ion-textarea/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the textarea."
+  },
+  "ion-textarea/enterkeyhint": {
+    "type": "\"done\" | \"enter\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
+    "description": "A hint to the browser for which enter key to display.\nPossible values: `\"enter\"`, `\"done\"`, `\"go\"`, `\"next\"`,\n`\"previous\"`, `\"search\"`, and `\"send\"`.",
+    "options": [
+      "done",
+      "enter",
+      "go",
+      "next",
+      "previous",
+      "search",
+      "send"
+    ]
+  },
+  "ion-textarea/inputmode": {
+    "type": "\"decimal\" | \"email\" | \"none\" | \"numeric\" | \"search\" | \"tel\" | \"text\" | \"url\" | undefined",
+    "description": "A hint to the browser for which keyboard to display.\nPossible values: `\"none\"`, `\"text\"`, `\"tel\"`, `\"url\"`,\n`\"email\"`, `\"numeric\"`, `\"decimal\"`, and `\"search\"`.",
+    "options": [
+      "decimal",
+      "email",
+      "none",
+      "numeric",
+      "search",
+      "tel",
+      "text",
+      "url"
+    ]
+  },
+  "ion-textarea/maxlength": {
+    "type": "number | undefined",
+    "description": "If the value of the type attribute is `text`, `email`, `search`, `password`, `tel`, or `url`, this attribute specifies the maximum number of characters that the user can enter."
+  },
+  "ion-textarea/minlength": {
+    "type": "number | undefined",
+    "description": "If the value of the type attribute is `text`, `email`, `search`, `password`, `tel`, or `url`, this attribute specifies the minimum number of characters that the user can enter."
+  },
+  "ion-textarea/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-textarea/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-textarea/placeholder": {
+    "type": "null | string | undefined",
+    "description": "Instructional text that shows before the input has a value."
+  },
+  "ion-textarea/readonly": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot modify the value."
+  },
+  "ion-textarea/required": {
+    "type": "boolean",
+    "description": "If `true`, the user must fill in a value before submitting a form."
+  },
+  "ion-textarea/rows": {
+    "type": "number | undefined",
+    "description": "The number of visible text lines for the control."
+  },
+  "ion-textarea/spellcheck": {
+    "type": "boolean",
+    "description": "If `true`, the element will have its spelling and grammar checked."
+  },
+  "ion-textarea/value": {
+    "type": "null | string | undefined",
+    "description": "The value of the textarea."
+  },
+  "ion-textarea/wrap": {
+    "type": "\"hard\" | \"off\" | \"soft\" | undefined",
+    "description": "Indicates how the control wraps text.",
+    "options": [
+      "hard",
+      "off",
+      "soft"
+    ]
+  },
+  "ion-textarea/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the input loses focus."
+  },
+  "ion-textarea/ionChange": {
+    "type": "event",
+    "description": "Emitted when the input value has changed."
+  },
+  "ion-textarea/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the input has focus."
+  },
+  "ion-textarea/ionInput": {
+    "type": "event",
+    "description": "Emitted when a keyboard input occurred."
+  },
+  "ion-title/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-title/size": {
+    "type": "\"large\" | \"small\" | undefined",
+    "description": "The size of the toolbar title.",
+    "options": [
+      "large",
+      "small"
+    ]
+  },
+  "ion-toast/animated": {
+    "type": "boolean",
+    "description": "If `true`, the toast will animate."
+  },
+  "ion-toast/buttons": {
+    "type": "(string | ToastButton)[] | undefined",
+    "description": "An array of buttons for the toast."
+  },
+  "ion-toast/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-toast/css-class": {
+    "type": "string | string[] | undefined",
+    "description": "Additional classes to apply for custom CSS. If multiple classes are\nprovided they should be separated by spaces."
+  },
+  "ion-toast/duration": {
+    "type": "number",
+    "description": "How many milliseconds to wait before hiding the toast. By default, it will show\nuntil `dismiss()` is called."
+  },
+  "ion-toast/enter-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the toast is presented."
+  },
+  "ion-toast/header": {
+    "type": "string | undefined",
+    "description": "Header to be shown in the toast."
+  },
+  "ion-toast/keyboard-close": {
+    "type": "boolean",
+    "description": "If `true`, the keyboard will be automatically dismissed when the overlay is presented."
+  },
+  "ion-toast/leave-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "Animation to use when the toast is dismissed."
+  },
+  "ion-toast/message": {
+    "type": "IonicSafeString | string | undefined",
+    "description": "Message to be shown in the toast."
+  },
+  "ion-toast/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-toast/position": {
+    "type": "\"bottom\" | \"middle\" | \"top\"",
+    "description": "The position of the toast on the screen.",
+    "options": [
+      "bottom",
+      "middle",
+      "top"
+    ]
+  },
+  "ion-toast/translucent": {
+    "type": "boolean",
+    "description": "If `true`, the toast will be translucent.\nOnly applies when the mode is `\"ios\"` and the device supports\n[`backdrop-filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#Browser_compatibility)."
+  },
+  "ion-toast/didDismiss": {
+    "type": "event",
+    "description": "Emitted after the toast has dismissed."
+  },
+  "ion-toast/didPresent": {
+    "type": "event",
+    "description": "Emitted after the toast has presented."
+  },
+  "ion-toast/willDismiss": {
+    "type": "event",
+    "description": "Emitted before the toast has dismissed."
+  },
+  "ion-toast/willPresent": {
+    "type": "event",
+    "description": "Emitted before the toast has presented."
+  },
+  "ion-toggle/checked": {
+    "type": "boolean",
+    "description": "If `true`, the toggle is selected."
+  },
+  "ion-toggle/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-toggle/disabled": {
+    "type": "boolean",
+    "description": "If `true`, the user cannot interact with the toggle."
+  },
+  "ion-toggle/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-toggle/name": {
+    "type": "string",
+    "description": "The name of the control, which is submitted with the form data."
+  },
+  "ion-toggle/value": {
+    "type": "null | string | undefined",
+    "description": "The value of the toggle does not mean if it's checked or not, use the `checked`\nproperty for that.\n\nThe value of a toggle is analogous to the value of a `<input type=\"checkbox\">`,\nit's only used when the toggle participates in a native `<form>`."
+  },
+  "ion-toggle/ionBlur": {
+    "type": "event",
+    "description": "Emitted when the toggle loses focus."
+  },
+  "ion-toggle/ionChange": {
+    "type": "event",
+    "description": "Emitted when the value property has changed."
+  },
+  "ion-toggle/ionFocus": {
+    "type": "event",
+    "description": "Emitted when the toggle has focus."
+  },
+  "ion-toolbar/color": {
+    "type": "string | undefined",
+    "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."
+  },
+  "ion-toolbar/mode": {
+    "type": "\"ios\" | \"md\"",
+    "description": "The mode determines which platform styles to use.",
+    "options": [
+      "ios",
+      "md"
+    ]
+  },
+  "ion-virtual-scroll/approx-footer-height": {
+    "type": "number",
+    "description": "The approximate width of each footer template's cell.\nThis dimension is used to help determine how many cells should\nbe created when initialized, and to help calculate the height of\nthe scrollable area. This height value can only use `px` units.\nNote that the actual rendered size of each cell comes from the\napp's CSS, whereas this approximation is used to help calculate\ninitial dimensions before the item has been rendered."
+  },
+  "ion-virtual-scroll/approx-header-height": {
+    "type": "number",
+    "description": "The approximate height of each header template's cell.\nThis dimension is used to help determine how many cells should\nbe created when initialized, and to help calculate the height of\nthe scrollable area. This height value can only use `px` units.\nNote that the actual rendered size of each cell comes from the\napp's CSS, whereas this approximation is used to help calculate\ninitial dimensions before the item has been rendered."
+  },
+  "ion-virtual-scroll/approx-item-height": {
+    "type": "number",
+    "description": "It is important to provide this\nif virtual item height will be significantly larger than the default\nThe approximate height of each virtual item template's cell.\nThis dimension is used to help determine how many cells should\nbe created when initialized, and to help calculate the height of\nthe scrollable area. This height value can only use `px` units.\nNote that the actual rendered size of each cell comes from the\napp's CSS, whereas this approximation is used to help calculate\ninitial dimensions before the item has been rendered."
+  },
+  "ion-virtual-scroll/footer-fn": {
+    "type": "((item: any, index: number, items: any[]) => string | null | undefined) | undefined",
+    "description": "Section footers and the data used within its given\ntemplate can be dynamically created by passing a function to `footerFn`.\nThe logic within the footer function can decide if the footer template\nshould be used, and what data to give to the footer template. The function\nmust return `null` if a footer cell shouldn't be created."
+  },
+  "ion-virtual-scroll/footer-height": {
+    "type": "((item: any, index: number) => number) | undefined",
+    "description": "An optional function that maps each item footer within their height."
+  },
+  "ion-virtual-scroll/header-fn": {
+    "type": "((item: any, index: number, items: any[]) => string | null | undefined) | undefined",
+    "description": "Section headers and the data used within its given\ntemplate can be dynamically created by passing a function to `headerFn`.\nFor example, a large list of contacts usually has dividers between each\nletter in the alphabet. App's can provide their own custom `headerFn`\nwhich is called with each record within the dataset. The logic within\nthe header function can decide if the header template should be used,\nand what data to give to the header template. The function must return\n`null` if a header cell shouldn't be created."
+  },
+  "ion-virtual-scroll/header-height": {
+    "type": "((item: any, index: number) => number) | undefined",
+    "description": "An optional function that maps each item header within their height."
+  },
+  "ion-virtual-scroll/item-height": {
+    "type": "((item: any, index: number) => number) | undefined",
+    "description": "An optional function that maps each item within their height.\nWhen this function is provides, heavy optimizations and fast path can be taked by\n`ion-virtual-scroll` leading to massive performance improvements.\n\nThis function allows to skip all DOM reads, which can be Doing so leads\nto massive performance"
+  },
+  "ion-virtual-scroll/items": {
+    "type": "any[] | undefined",
+    "description": "The data that builds the templates within the virtual scroll.\nIt's important to note that when this data has changed, then the\nentire virtual scroll is reset, which is an expensive operation and\nshould be avoided if possible."
+  },
+  "ion-virtual-scroll/node-render": {
+    "type": "((el: HTMLElement | null, cell: Cell, domIndex: number) => HTMLElement) | undefined",
+    "description": "NOTE: only Vanilla JS API."
+  },
+  "ion-virtual-scroll/render-footer": {
+    "type": "((item: any, index: number) => any) | undefined",
+    "description": "NOTE: only JSX API for stencil.\n\nProvide a render function for the footer to be rendered. Returns a JSX virtual-dom."
+  },
+  "ion-virtual-scroll/render-header": {
+    "type": "((item: any, index: number) => any) | undefined",
+    "description": "NOTE: only JSX API for stencil.\n\nProvide a render function for the header to be rendered. Returns a JSX virtual-dom."
+  },
+  "ion-virtual-scroll/render-item": {
+    "type": "((item: any, index: number) => any) | undefined",
+    "description": "NOTE: only JSX API for stencil.\n\nProvide a render function for the items to be rendered. Returns a JSX virtual-dom."
+  }
+}
