@@ -5,8 +5,9 @@
 
 Project description - one or two paragraphs. The enemy is dark and creates major problems. The solution is now available and the World can rejoice.
 
+- [Project Name](#project-name)
 - [Getting Started](#getting-started)
-- [How it Works](#how-it-works)
+- [How it works](#how-it-works)
 - [Developing](#developing)
   - [Prerequisites](#prerequisites)
   - [Testing](#testing)
@@ -16,14 +17,10 @@ Project description - one or two paragraphs. The enemy is dark and creates major
 
 # Getting Started
 
-{Minimal steps required for a quick software trial.}
+Run the following command to install dependencies and bootstrap lerna.
 
-```js
-import { Fantastico } from "@modus/awesome-solution";
-
-const amazing = new Fantastico();
-
-export default amazing;
+```
+npm run bootstrap
 ```
 
 # How it works
