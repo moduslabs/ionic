@@ -19,7 +19,7 @@ Project description - one or two paragraphs. The enemy is dark and creates major
 {Minimal steps required for a quick software trial.}
 
 ```js
-import { Fantastico } from '@modus/awesome-solution';
+import { Fantastico } from "@modus/awesome-solution";
 
 const amazing = new Fantastico();
 

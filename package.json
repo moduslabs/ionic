@@ -5,10 +5,40 @@
   "license": "MIT",
   "repository": "github:moduslabs/ionic",
   "keywords": [],
+  "scripts": {
+    "bootstrap": "npm install && lerna bootstrap",
+    "clean": "lerna clean --yes && rm -r ./node_modules",
+    "build": "lerna run build",
+    "test:unit": "lerna run test -- --collectCoverage",
+    "format": "prettier --ignore-path '**/{node_modules, dist, build}/**' --write '**/*.{ts, tsx, css,md,json}'",
+    "lint": "eslint --fix '**/*.{ts,tsx}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test:unit"
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "npm run test:unit",
+      "npm run lint",
+      "npm run format"
+    ],
+    "**/*.{css,md,json}": [
+      "npm run format"
+    ]
+  },
   "devDependencies": {
     "@types/node": "^14.0.27",
-    "ts-node": "^8.10.2",
-    "tslib": "^1.13.0",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.10",
+    "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
 }
