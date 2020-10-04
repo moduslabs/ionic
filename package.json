@@ -11,7 +11,8 @@
     "build": "lerna run build",
     "test:unit": "lerna run test -- --collectCoverage",
     "format": "prettier --ignore-path '**/{node_modules, dist, build}/**' --write '**/*.{ts, tsx, css,md,json}'",
-    "lint": "eslint --fix '**/*.{ts,tsx}'"
+    "lint": "eslint --fix '**/*.{ts,tsx}'",
+    "bump": "lerna version"
   },
   "husky": {
     "hooks": {
