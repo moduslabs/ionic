@@ -34,10 +34,7 @@
   "ion-action-sheet/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-action-sheet/sub-header": {
     "type": "string | undefined",
@@ -106,10 +103,7 @@
   "ion-alert/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-alert/sub-header": {
     "type": "string | undefined",
@@ -154,10 +148,7 @@
   "ion-back-button/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-back-button/router-animation": {
     "type": "((baseEl: any, opts?: any) => Animation) | undefined",
@@ -170,11 +161,7 @@
   "ion-back-button/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-backdrop/stop-propagation": {
     "type": "boolean",
@@ -199,10 +186,7 @@
   "ion-badge/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-button/button-type": {
     "type": "string",
@@ -223,20 +207,12 @@
   "ion-button/expand": {
     "type": "\"block\" | \"full\" | undefined",
     "description": "Set to `\"block\"` for a full-width button or to `\"full\"` for a full-width button\nwithout left and right borders.",
-    "options": [
-      "block",
-      "full"
-    ]
+    "options": ["block", "full"]
   },
   "ion-button/fill": {
     "type": "\"clear\" | \"default\" | \"outline\" | \"solid\" | undefined",
     "description": "Set to `\"clear\"` for a transparent button, to `\"outline\"` for a transparent\nbutton with a border, or to `\"solid\"`. The default style is `\"solid\"` except inside of\na toolbar, where the default is `\"clear\"`.",
-    "options": [
-      "clear",
-      "default",
-      "outline",
-      "solid"
-    ]
+    "options": ["clear", "default", "outline", "solid"]
   },
   "ion-button/href": {
     "type": "string | undefined",
@@ -245,10 +221,7 @@
   "ion-button/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-button/rel": {
     "type": "string | undefined",
@@ -261,27 +234,17 @@
   "ion-button/router-direction": {
     "type": "\"back\" | \"forward\" | \"root\"",
     "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
-    "options": [
-      "back",
-      "forward",
-      "root"
-    ]
+    "options": ["back", "forward", "root"]
   },
   "ion-button/shape": {
     "type": "\"round\" | undefined",
     "description": "The button shape.",
-    "options": [
-      "round"
-    ]
+    "options": ["round"]
   },
   "ion-button/size": {
     "type": "\"default\" | \"large\" | \"small\" | undefined",
     "description": "The button size.",
-    "options": [
-      "default",
-      "large",
-      "small"
-    ]
+    "options": ["default", "large", "small"]
   },
   "ion-button/strong": {
     "type": "boolean",
@@ -294,11 +257,7 @@
   "ion-button/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-button/ionBlur": {
     "type": "event",
@@ -335,10 +294,7 @@
   "ion-card/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-card/rel": {
     "type": "string | undefined",
@@ -351,11 +307,7 @@
   "ion-card/router-direction": {
     "type": "\"back\" | \"forward\" | \"root\"",
     "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
-    "options": [
-      "back",
-      "forward",
-      "root"
-    ]
+    "options": ["back", "forward", "root"]
   },
   "ion-card/target": {
     "type": "string | undefined",
@@ -364,19 +316,12 @@
   "ion-card/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button. Only used when an `onclick` or `button` property is present.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-card-content/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-card-header/color": {
     "type": "string | undefined",
@@ -385,10 +330,7 @@
   "ion-card-header/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-card-header/translucent": {
     "type": "boolean",
@@ -401,10 +343,7 @@
   "ion-card-subtitle/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-card-title/color": {
     "type": "string | undefined",
@@ -413,10 +352,7 @@
   "ion-card-title/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-checkbox/checked": {
     "type": "boolean",
@@ -437,10 +373,7 @@
   "ion-checkbox/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-checkbox/name": {
     "type": "string",
@@ -469,10 +402,7 @@
   "ion-chip/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-chip/outline": {
     "type": "boolean",
@@ -661,10 +591,7 @@
   "ion-datetime/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-datetime/month-names": {
     "type": "string | string[] | undefined",
@@ -689,9 +616,7 @@
   "ion-datetime/picker-options": {
     "type": "undefined | { columns?: PickerColumn[] | undefined; buttons?: PickerButton[] | undefined; cssClass?: string | string[] | undefined; showBackdrop?: boolean | undefined; backdropDismiss?: boolean | undefined; animated?: boolean | undefined; mode?: \"ios\" | \"md\" | undefined; keyboardClose?: boolean | undefined; id?: string | undefined; enterAnimation?: AnimationBuilder | undefined; leaveAnimation?: AnimationBuilder | undefined; }",
     "description": "Any additional options that the picker interface can accept.\nSee the [Picker API docs](../picker) for the picker options.",
-    "options": [
-      "md"
-    ]
+    "options": ["md"]
   },
   "ion-datetime/placeholder": {
     "type": "null | string | undefined",
@@ -736,20 +661,12 @@
   "ion-fab/horizontal": {
     "type": "\"center\" | \"end\" | \"start\" | undefined",
     "description": "Where to align the fab horizontally in the viewport.",
-    "options": [
-      "center",
-      "end",
-      "start"
-    ]
+    "options": ["center", "end", "start"]
   },
   "ion-fab/vertical": {
     "type": "\"bottom\" | \"center\" | \"top\" | undefined",
     "description": "Where to align the fab vertically in the viewport.",
-    "options": [
-      "bottom",
-      "center",
-      "top"
-    ]
+    "options": ["bottom", "center", "top"]
   },
   "ion-fab-button/activated": {
     "type": "boolean",
@@ -778,10 +695,7 @@
   "ion-fab-button/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-fab-button/rel": {
     "type": "string | undefined",
@@ -794,11 +708,7 @@
   "ion-fab-button/router-direction": {
     "type": "\"back\" | \"forward\" | \"root\"",
     "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
-    "options": [
-      "back",
-      "forward",
-      "root"
-    ]
+    "options": ["back", "forward", "root"]
   },
   "ion-fab-button/show": {
     "type": "boolean",
@@ -807,9 +717,7 @@
   "ion-fab-button/size": {
     "type": "\"small\" | undefined",
     "description": "The size of the button. Set this to `small` in order to have a mini fab button.",
-    "options": [
-      "small"
-    ]
+    "options": ["small"]
   },
   "ion-fab-button/target": {
     "type": "string | undefined",
@@ -822,11 +730,7 @@
   "ion-fab-button/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-fab-button/ionBlur": {
     "type": "event",
@@ -843,20 +747,12 @@
   "ion-fab-list/side": {
     "type": "\"bottom\" | \"end\" | \"start\" | \"top\"",
     "description": "The side the fab list will show on relative to the main fab button.",
-    "options": [
-      "bottom",
-      "end",
-      "start",
-      "top"
-    ]
+    "options": ["bottom", "end", "start", "top"]
   },
   "ion-footer/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-footer/translucent": {
     "type": "boolean",
@@ -869,17 +765,12 @@
   "ion-header/collapse": {
     "type": "\"condense\" | undefined",
     "description": "Describes the scroll effect that will be applied to the header\n`condense` only applies in iOS mode.\n\nTypically used for [Collapsible Large Titles](https://ionicframework.com/docs/api/title#collapsible-large-titles)",
-    "options": [
-      "condense"
-    ]
+    "options": ["condense"]
   },
   "ion-header/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-header/translucent": {
     "type": "boolean",
@@ -912,10 +803,7 @@
   "ion-infinite-scroll/position": {
     "type": "\"bottom\" | \"top\"",
     "description": "The position of the infinite scroll element.\nThe value can be either `top` or `bottom`.",
-    "options": [
-      "bottom",
-      "top"
-    ]
+    "options": ["bottom", "top"]
   },
   "ion-infinite-scroll/threshold": {
     "type": "string",
@@ -1013,10 +901,7 @@
   "ion-input/autocorrect": {
     "type": "\"off\" | \"on\"",
     "description": "Whether auto correction should be enabled when the user is entering/editing the text value.",
-    "options": [
-      "off",
-      "on"
-    ]
+    "options": ["off", "on"]
   },
   "ion-input/autofocus": {
     "type": "boolean",
@@ -1045,29 +930,12 @@
   "ion-input/enterkeyhint": {
     "type": "\"done\" | \"enter\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
     "description": "A hint to the browser for which enter key to display.\nPossible values: `\"enter\"`, `\"done\"`, `\"go\"`, `\"next\"`,\n`\"previous\"`, `\"search\"`, and `\"send\"`.",
-    "options": [
-      "done",
-      "enter",
-      "go",
-      "next",
-      "previous",
-      "search",
-      "send"
-    ]
+    "options": ["done", "enter", "go", "next", "previous", "search", "send"]
   },
   "ion-input/inputmode": {
     "type": "\"decimal\" | \"email\" | \"none\" | \"numeric\" | \"search\" | \"tel\" | \"text\" | \"url\" | undefined",
     "description": "A hint to the browser for which keyboard to display.\nPossible values: `\"none\"`, `\"text\"`, `\"tel\"`, `\"url\"`,\n`\"email\"`, `\"numeric\"`, `\"decimal\"`, and `\"search\"`.",
-    "options": [
-      "decimal",
-      "email",
-      "none",
-      "numeric",
-      "search",
-      "tel",
-      "text",
-      "url"
-    ]
+    "options": ["decimal", "email", "none", "numeric", "search", "tel", "text", "url"]
   },
   "ion-input/max": {
     "type": "string | undefined",
@@ -1088,10 +956,7 @@
   "ion-input/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-input/multiple": {
     "type": "boolean | undefined",
@@ -1198,19 +1063,12 @@
   "ion-item/lines": {
     "type": "\"full\" | \"inset\" | \"none\" | undefined",
     "description": "How the bottom border should be displayed on the item.",
-    "options": [
-      "full",
-      "inset",
-      "none"
-    ]
+    "options": ["full", "inset", "none"]
   },
   "ion-item/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-item/rel": {
     "type": "string | undefined",
@@ -1223,11 +1081,7 @@
   "ion-item/router-direction": {
     "type": "\"back\" | \"forward\" | \"root\"",
     "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
-    "options": [
-      "back",
-      "forward",
-      "root"
-    ]
+    "options": ["back", "forward", "root"]
   },
   "ion-item/target": {
     "type": "string | undefined",
@@ -1236,11 +1090,7 @@
   "ion-item/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button. Only used when an `onclick` or `button` property is present.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-item-divider/color": {
     "type": "string | undefined",
@@ -1249,10 +1099,7 @@
   "ion-item-divider/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-item-divider/sticky": {
     "type": "boolean",
@@ -1281,10 +1128,7 @@
   "ion-item-option/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-item-option/rel": {
     "type": "string | undefined",
@@ -1297,19 +1141,12 @@
   "ion-item-option/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-item-options/side": {
     "type": "\"end\" | \"start\"",
     "description": "The side the option button should be on. Possible values: `\"start\"` and `\"end\"`. If you have multiple `ion-item-options`, a side must be provided for each.",
-    "options": [
-      "end",
-      "start"
-    ]
+    "options": ["end", "start"]
   },
   "ion-item-options/ionSwipe": {
     "type": "event",
@@ -1330,19 +1167,12 @@
   "ion-label/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-label/position": {
     "type": "\"fixed\" | \"floating\" | \"stacked\" | undefined",
     "description": "The position determines where and how the label behaves inside an item.",
-    "options": [
-      "fixed",
-      "floating",
-      "stacked"
-    ]
+    "options": ["fixed", "floating", "stacked"]
   },
   "ion-list/inset": {
     "type": "boolean",
@@ -1351,19 +1181,12 @@
   "ion-list/lines": {
     "type": "\"full\" | \"inset\" | \"none\" | undefined",
     "description": "How the bottom border should be displayed on all items.",
-    "options": [
-      "full",
-      "inset",
-      "none"
-    ]
+    "options": ["full", "inset", "none"]
   },
   "ion-list/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-list-header/color": {
     "type": "string | undefined",
@@ -1372,19 +1195,12 @@
   "ion-list-header/lines": {
     "type": "\"full\" | \"inset\" | \"none\" | undefined",
     "description": "How the bottom border should be displayed on the list header.",
-    "options": [
-      "full",
-      "inset",
-      "none"
-    ]
+    "options": ["full", "inset", "none"]
   },
   "ion-list-header/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-loading/animated": {
     "type": "boolean",
@@ -1421,10 +1237,7 @@
   "ion-loading/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-loading/show-backdrop": {
     "type": "boolean",
@@ -1482,10 +1295,7 @@
   "ion-menu/side": {
     "type": "\"end\" | \"start\"",
     "description": "Which side of the view the menu should be placed.",
-    "options": [
-      "end",
-      "start"
-    ]
+    "options": ["end", "start"]
   },
   "ion-menu/swipe-gesture": {
     "type": "boolean",
@@ -1530,19 +1340,12 @@
   "ion-menu-button/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-menu-button/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-menu-toggle/auto-hide": {
     "type": "boolean",
@@ -1579,10 +1382,7 @@
   "ion-modal/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-modal/presenting-element": {
     "type": "HTMLElement | undefined",
@@ -1619,10 +1419,7 @@
   "ion-note/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-picker/animated": {
     "type": "boolean",
@@ -1663,10 +1460,7 @@
   "ion-picker/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-picker/show-backdrop": {
     "type": "boolean",
@@ -1719,10 +1513,7 @@
   "ion-popover/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-popover/show-backdrop": {
     "type": "boolean",
@@ -1759,10 +1550,7 @@
   "ion-progress-bar/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-progress-bar/reversed": {
     "type": "boolean",
@@ -1771,10 +1559,7 @@
   "ion-progress-bar/type": {
     "type": "\"determinate\" | \"indeterminate\"",
     "description": "The state of the progress bar, based on if the time the process takes is known or not.\nDefault options are: `\"determinate\"` (no animation), `\"indeterminate\"` (animate from left to right).",
-    "options": [
-      "determinate",
-      "indeterminate"
-    ]
+    "options": ["determinate", "indeterminate"]
   },
   "ion-progress-bar/value": {
     "type": "number",
@@ -1791,10 +1576,7 @@
   "ion-radio/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-radio/name": {
     "type": "string",
@@ -1855,10 +1637,7 @@
   "ion-range/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-range/name": {
     "type": "string",
@@ -1968,10 +1747,7 @@
   "ion-ripple-effect/type": {
     "type": "\"bounded\" | \"unbounded\"",
     "description": "Sets the type of ripple-effect:\n\n- `bounded`: the ripple effect expands from the user's click position\n- `unbounded`: the ripple effect expands from the center of the button and overflows the container.\n\nNOTE: Surfaces for bounded ripples should have the overflow property set to hidden,\nwhile surfaces for unbounded ripples should have it set to visible.",
-    "options": [
-      "bounded",
-      "unbounded"
-    ]
+    "options": ["bounded", "unbounded"]
   },
   "ion-router-link/color": {
     "type": "string | undefined",
@@ -1992,11 +1768,7 @@
   "ion-router-link/router-direction": {
     "type": "\"back\" | \"forward\" | \"root\"",
     "description": "When using a router, it specifies the transition direction when navigating to\nanother page using `href`.",
-    "options": [
-      "back",
-      "forward",
-      "root"
-    ]
+    "options": ["back", "forward", "root"]
   },
   "ion-router-link/target": {
     "type": "string | undefined",
@@ -2013,10 +1785,7 @@
   "ion-router-outlet/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-searchbar/animated": {
     "type": "boolean",
@@ -2085,10 +1854,7 @@
   "ion-searchbar/autocorrect": {
     "type": "\"off\" | \"on\"",
     "description": "Set the input's autocorrect property.",
-    "options": [
-      "off",
-      "on"
-    ]
+    "options": ["off", "on"]
   },
   "ion-searchbar/cancel-button-icon": {
     "type": "string",
@@ -2117,37 +1883,17 @@
   "ion-searchbar/enterkeyhint": {
     "type": "\"done\" | \"enter\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
     "description": "A hint to the browser for which enter key to display.\nPossible values: `\"enter\"`, `\"done\"`, `\"go\"`, `\"next\"`,\n`\"previous\"`, `\"search\"`, and `\"send\"`.",
-    "options": [
-      "done",
-      "enter",
-      "go",
-      "next",
-      "previous",
-      "search",
-      "send"
-    ]
+    "options": ["done", "enter", "go", "next", "previous", "search", "send"]
   },
   "ion-searchbar/inputmode": {
     "type": "\"decimal\" | \"email\" | \"none\" | \"numeric\" | \"search\" | \"tel\" | \"text\" | \"url\" | undefined",
     "description": "A hint to the browser for which keyboard to display.\nPossible values: `\"none\"`, `\"text\"`, `\"tel\"`, `\"url\"`,\n`\"email\"`, `\"numeric\"`, `\"decimal\"`, and `\"search\"`.",
-    "options": [
-      "decimal",
-      "email",
-      "none",
-      "numeric",
-      "search",
-      "tel",
-      "text",
-      "url"
-    ]
+    "options": ["decimal", "email", "none", "numeric", "search", "tel", "text", "url"]
   },
   "ion-searchbar/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-searchbar/placeholder": {
     "type": "string",
@@ -2160,11 +1906,7 @@
   "ion-searchbar/show-cancel-button": {
     "type": "\"always\" | \"focus\" | \"never\"",
     "description": "Sets the behavior for the cancel button. Defaults to `\"never\"`.\nSetting to `\"focus\"` shows the cancel button on focus.\nSetting to `\"never\"` hides the cancel button.\nSetting to `\"always\"` shows the cancel button regardless\nof focus state.",
-    "options": [
-      "always",
-      "focus",
-      "never"
-    ]
+    "options": ["always", "focus", "never"]
   },
   "ion-searchbar/spellcheck": {
     "type": "boolean",
@@ -2173,15 +1915,7 @@
   "ion-searchbar/type": {
     "type": "\"email\" | \"number\" | \"password\" | \"search\" | \"tel\" | \"text\" | \"url\"",
     "description": "Set the type of the input.",
-    "options": [
-      "email",
-      "number",
-      "password",
-      "search",
-      "tel",
-      "text",
-      "url"
-    ]
+    "options": ["email", "number", "password", "search", "tel", "text", "url"]
   },
   "ion-searchbar/value": {
     "type": "null | string | undefined",
@@ -2222,10 +1956,7 @@
   "ion-segment/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-segment/scrollable": {
     "type": "boolean",
@@ -2258,19 +1989,12 @@
   "ion-segment-button/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-segment-button/type": {
     "type": "\"button\" | \"reset\" | \"submit\"",
     "description": "The type of the button.",
-    "options": [
-      "button",
-      "reset",
-      "submit"
-    ]
+    "options": ["button", "reset", "submit"]
   },
   "ion-segment-button/value": {
     "type": "string",
@@ -2291,11 +2015,7 @@
   "ion-select/interface": {
     "type": "\"action-sheet\" | \"alert\" | \"popover\"",
     "description": "The interface the select should use: `action-sheet`, `popover` or `alert`.",
-    "options": [
-      "action-sheet",
-      "alert",
-      "popover"
-    ]
+    "options": ["action-sheet", "alert", "popover"]
   },
   "ion-select/interface-options": {
     "type": "any",
@@ -2304,10 +2024,7 @@
   "ion-select/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-select/multiple": {
     "type": "boolean",
@@ -2364,10 +2081,7 @@
   "ion-slides/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-slides/options": {
     "type": "any",
@@ -2497,10 +2211,7 @@
   "ion-tab-bar/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-tab-bar/selected-tab": {
     "type": "string | undefined",
@@ -2537,10 +2248,7 @@
   "ion-tab-button/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-tab-button/rel": {
     "type": "string | undefined",
@@ -2573,10 +2281,7 @@
   "ion-text/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-textarea/auto-grow": {
     "type": "boolean",
@@ -2613,29 +2318,12 @@
   "ion-textarea/enterkeyhint": {
     "type": "\"done\" | \"enter\" | \"go\" | \"next\" | \"previous\" | \"search\" | \"send\" | undefined",
     "description": "A hint to the browser for which enter key to display.\nPossible values: `\"enter\"`, `\"done\"`, `\"go\"`, `\"next\"`,\n`\"previous\"`, `\"search\"`, and `\"send\"`.",
-    "options": [
-      "done",
-      "enter",
-      "go",
-      "next",
-      "previous",
-      "search",
-      "send"
-    ]
+    "options": ["done", "enter", "go", "next", "previous", "search", "send"]
   },
   "ion-textarea/inputmode": {
     "type": "\"decimal\" | \"email\" | \"none\" | \"numeric\" | \"search\" | \"tel\" | \"text\" | \"url\" | undefined",
     "description": "A hint to the browser for which keyboard to display.\nPossible values: `\"none\"`, `\"text\"`, `\"tel\"`, `\"url\"`,\n`\"email\"`, `\"numeric\"`, `\"decimal\"`, and `\"search\"`.",
-    "options": [
-      "decimal",
-      "email",
-      "none",
-      "numeric",
-      "search",
-      "tel",
-      "text",
-      "url"
-    ]
+    "options": ["decimal", "email", "none", "numeric", "search", "tel", "text", "url"]
   },
   "ion-textarea/maxlength": {
     "type": "number | undefined",
@@ -2648,10 +2336,7 @@
   "ion-textarea/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-textarea/name": {
     "type": "string",
@@ -2684,11 +2369,7 @@
   "ion-textarea/wrap": {
     "type": "\"hard\" | \"off\" | \"soft\" | undefined",
     "description": "Indicates how the control wraps text.",
-    "options": [
-      "hard",
-      "off",
-      "soft"
-    ]
+    "options": ["hard", "off", "soft"]
   },
   "ion-textarea/ionBlur": {
     "type": "event",
@@ -2713,10 +2394,7 @@
   "ion-title/size": {
     "type": "\"large\" | \"small\" | undefined",
     "description": "The size of the toolbar title.",
-    "options": [
-      "large",
-      "small"
-    ]
+    "options": ["large", "small"]
   },
   "ion-toast/animated": {
     "type": "boolean",
@@ -2761,19 +2439,12 @@
   "ion-toast/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-toast/position": {
     "type": "\"bottom\" | \"middle\" | \"top\"",
     "description": "The position of the toast on the screen.",
-    "options": [
-      "bottom",
-      "middle",
-      "top"
-    ]
+    "options": ["bottom", "middle", "top"]
   },
   "ion-toast/translucent": {
     "type": "boolean",
@@ -2810,10 +2481,7 @@
   "ion-toggle/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-toggle/name": {
     "type": "string",
@@ -2842,10 +2510,7 @@
   "ion-toolbar/mode": {
     "type": "\"ios\" | \"md\"",
     "description": "The mode determines which platform styles to use.",
-    "options": [
-      "ios",
-      "md"
-    ]
+    "options": ["ios", "md"]
   },
   "ion-virtual-scroll/approx-footer-height": {
     "type": "number",
