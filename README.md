@@ -8,7 +8,6 @@
 - [Vetur](https://github.com/moduslabs/ionic/tree/master/packages/ionic-vue-vetur) support for `@ionic/vue`
 - Others coming soon...
 
-
 ## Contributing
 
 We love contributing and we ❤️LOVE❤️ contributors. If you would like to take part, you can start by checking out:

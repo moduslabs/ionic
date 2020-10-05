@@ -1,6 +1,9 @@
 {
   "command": {
-    "bootstrap": { "hoist": true }
+    "bootstrap": { "hoist": true },
+    "version": {
+      "allowBranch": "master"
+    }
   },
   "packages": ["packages/*"],
   "version": "0.0.0"
