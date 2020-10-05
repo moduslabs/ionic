@@ -6,40 +6,39 @@ name: Test changed packages
 on:
   push:
     paths:
-    - 'packages/**'
+      - "packages/**"
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   packagetest:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Testonic
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - name: checkpath
-      id: filepath
-      run: |
-        echo ::set-output name=commitpath::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }})
-    - run: npm ci
-    - name: Detected change in the following package
-      run: |
-        echo ${{ steps.filepath.outputs.commitpath }}
-    - name: path
-      run: |
-        if [["$STR" == *"ionic-vue-vetur"*]]; then
-          cd packages/ionic-vue-vetur
-        elif [["$STR" == *"ionic/foo"*]]; then
-          echo packages/foo
-        elif [["$STR" == *"ionic/bar"*]]; then
-          echo packages/bar
-        fi
-      env:
-        STR: ${{ steps.filepath.outputs.commitpath }}
+      - uses: actions/checkout@v2
+      - name: Testonic
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: checkpath
+        id: filepath
+        run: |
+          echo ::set-output name=commitpath::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }})
+      - run: npm ci
+      - name: Detected change in the following package
+        run: |
+          echo ${{ steps.filepath.outputs.commitpath }}
+      - name: path
+        run: |
+          if [["$STR" == *"ionic-vetur"*]]; then
+            cd packages/ionic-vetur
+          elif [["$STR" == *"ionic/foo"*]]; then
+            echo packages/foo
+          elif [["$STR" == *"ionic/bar"*]]; then
+            echo packages/bar
+          fi
+        env:
+          STR: ${{ steps.filepath.outputs.commitpath }}
 
-    - run: npm run build --if-present
-    - run: npm test
+      - run: npm run build --if-present
+      - run: npm test
