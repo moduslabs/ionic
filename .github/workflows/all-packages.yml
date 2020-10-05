@@ -31,7 +31,7 @@ jobs:
         echo ${{ steps.filepath.outputs.commitpath }}
     - name: path
       run: |
-        if [["$STR" == *"ionic-vue-vetur"*]] then
+        if [["$STR" == *"ionic-vue-vetur"*]]; then
           cd packages/ionic-vue-vetur
         elif [["$STR" == *"ionic/foo"*]]; then
           echo packages/foo
