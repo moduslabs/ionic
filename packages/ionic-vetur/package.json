@@ -1,6 +1,6 @@
 {
   "name": "@modus/ionic-vetur",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto-completion and hover-information for @ionic/vue.",
   "private": false,
   "homepage": "https://moduscreate.com",
