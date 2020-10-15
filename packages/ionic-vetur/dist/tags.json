@@ -1,4 +1,11 @@
 {
+  "ion-app": {
+    "description": "App is a container element for an Ionic application. There should only be one `<ion-app>` element per project. An app can have many Ionic components including menus, headers, content, and footers. The overlay components get appended to the `<ion-app>` when they are presented.",
+    "attributes": []
+  },
+  "ion-page": {
+    "description": "A shortcut to `<div class=\"ion-page\">`"
+  },
   "ion-action-sheet": {
     "description": "An Action Sheet is a dialog that displays a set of options. It appears on top of the app's content, and must be manually dismissed by the user before they can resume interaction with the app. Destructive options are made obvious in `ios` mode. There are multiple ways to dismiss the action sheet, including tapping the backdrop or hitting the escape key on desktop.",
     "attributes": [
@@ -32,10 +39,6 @@
       "sub-header",
       "translucent"
     ]
-  },
-  "ion-app": {
-    "description": "App is a container element for an Ionic application. There should only be one `<ion-app>` element per project. An app can have many Ionic components including menus, headers, content, and footers. The overlay components get appended to the `<ion-app>` when they are presented.",
-    "attributes": []
   },
   "ion-avatar": {
     "description": "Avatars are circular components that usually wrap an image or icon. They can be used to represent a person or an object.\n\nAvatars can be used by themselves or inside of any element. If placed inside of an `ion-chip` or `ion-item`, the avatar will resize to fit the parent component. To position an avatar on the left or right side of an item, set the slot to `start` or `end`, respectively.",
@@ -400,6 +403,14 @@
       "show-backdrop",
       "swipe-to-close"
     ]
+  },
+  "ion-nav": {
+    "description": "Nav is a standalone component for loading arbitrary components and pushing new components on to the stack.\n\nUnlike Router Outlet, Nav is not tied to a particular router. This means that if we load a Nav component, and push other components to the stack, they will not affect the app's overall router. This fits use cases where you could have a modal, which needs its own sub-navigation, without making it tied to the apps URL.",
+    "attributes": ["animated", "animation", "root", "root-params", "swipe-gesture"]
+  },
+  "ion-nav-link": {
+    "description": "A navigation link is used to navigate to a specified component. The component can be navigated to by going `forward`, `back` or as a `root` component.\n\nIt is the element form of calling the `push()`, `pop()`, and `setRoot()` methods on the navigation controller.",
+    "attributes": ["router-animation", "router-direction"]
   },
   "ion-note": {
     "description": "Notes are text elements generally used as subtitles that provide more information. Notes are styled to appear grey by default. Notes can be used in an item as metadata text.",
