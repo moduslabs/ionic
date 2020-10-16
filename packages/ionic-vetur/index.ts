@@ -4,15 +4,17 @@ import docs from "@ionic/docs";
 import { paramCase } from "change-case";
 
 const ignoredProps = ["component", "componentProps", "delegate"];
-const ignoredTags = [
-  "ion-nav",
-  "ion-nav-link",
-  "ion-router",
-  "ion-route",
-  "ion-route-redirect",
-];
-const tags: { [key: string]: any } = {};
-const attrs: { [key: string]: any } = {};
+const ignoredTags = ["ion-router", "ion-route", "ion-route-redirect"];
+const tags: Record<string, any> = {
+  "ion-app": {
+    description:
+      "App is a container element for an Ionic application. There should only be one `<ion-app>` element per project. An app can have many Ionic components including menus, headers, content, and footers. The overlay components get appended to the `<ion-app>` when they are presented.",
+  },
+  "ion-page": {
+    description: 'A shortcut to `<div class="ion-page">`',
+  },
+};
+const attrs: Record<string, any> = {};
 
 docs.components
   .filter((c) => !ignoredTags.includes(c.tag))
@@ -55,7 +57,7 @@ writeOutput(attrs, "attributes");
 function writeOutput(data: Record<string, unknown>, type: string) {
   fs.writeFile(
     path.resolve(__dirname, `./dist/${type}.json`),
-    JSON.stringify(data, null, 2),
+    JSON.stringify(data, null, 2) + "\n",
     (err) => {
       if (err) {
         console.error(err);

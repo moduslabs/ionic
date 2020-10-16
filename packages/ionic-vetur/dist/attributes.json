@@ -1412,6 +1412,43 @@
     "type": "event",
     "description": "Emitted before the modal has presented."
   },
+  "ion-nav/animated": {
+    "type": "boolean",
+    "description": "If `true`, the nav should animate the transition of components."
+  },
+  "ion-nav/animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "By default `ion-nav` animates transition between pages based in the mode (ios or material design).\nHowever, this property allows to create custom transition using `AnimateBuilder` functions."
+  },
+  "ion-nav/root": {
+    "type": "Function | HTMLElement | ViewController | null | string | undefined",
+    "description": "Root NavComponent to load"
+  },
+  "ion-nav/root-params": {
+    "type": "undefined | { [key: string]: any; }",
+    "description": "Any parameters for the root component"
+  },
+  "ion-nav/swipe-gesture": {
+    "type": "boolean | undefined",
+    "description": "If the nav component should allow for swipe-to-go-back."
+  },
+  "ion-nav/ionNavDidChange": {
+    "type": "event",
+    "description": "Event fired when the nav has changed components"
+  },
+  "ion-nav/ionNavWillChange": {
+    "type": "event",
+    "description": "Event fired when the nav will change components"
+  },
+  "ion-nav-link/router-animation": {
+    "type": "((baseEl: any, opts?: any) => Animation) | undefined",
+    "description": "The transition animation when navigating to another page."
+  },
+  "ion-nav-link/router-direction": {
+    "type": "\"back\" | \"forward\" | \"root\"",
+    "description": "The transition direction when navigating to another page.",
+    "options": ["back", "forward", "root"]
+  },
   "ion-note/color": {
     "type": "string | undefined",
     "description": "The color to use from your application's color palette.\nDefault options are: `\"primary\"`, `\"secondary\"`, `\"tertiary\"`, `\"success\"`, `\"warning\"`, `\"danger\"`, `\"light\"`, `\"medium\"`, and `\"dark\"`.\nFor more information on colors, see [theming](/docs/theming/basics)."

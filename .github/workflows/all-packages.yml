@@ -25,6 +25,7 @@ jobs:
         run: |
           echo ::set-output name=commitpath::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }})
       - run: npm ci
+      - run: npx lerna bootstrap
       - name: Detected change in the following package
         run: |
           echo ${{ steps.filepath.outputs.commitpath }}
